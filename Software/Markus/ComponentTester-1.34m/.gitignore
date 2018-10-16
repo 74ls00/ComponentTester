@@ -1,0 +1,6 @@
+dep
+ComponentTester
+*.7z
+*.o
+*.lss
+*.map
