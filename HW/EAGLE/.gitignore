@@ -1,13 +1,13 @@
 #devel
-eagle.epf
-DESCRIPTION
-gerber
+#eagle.epf
+#DESCRIPTION
+#gerber
 #b333.brd
 #b333.sch
 #transistor_tester.lbr
-ExportGerber.cam
+#ExportGerber.cam
 #b333.lay6
-mod.txt
+#mod.txt
 #TODO.txt
 
 
