@@ -112,7 +112,7 @@
  *  - uncomment to enable
  */
 
-//#define HW_ZENER
+#define HW_ZENER
 
 
 /*
