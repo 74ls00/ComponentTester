@@ -2,12 +2,13 @@
 eagle.epf
 DESCRIPTION
 gerber
-b333.brd
-b333.sch
-transistor_tester.lbr
+#b333.brd
+#b333.sch
+#transistor_tester.lbr
 ExportGerber.cam
-b333.lay6
+#b333.lay6
 mod.txt
+#TODO.txt
 
 
 
@@ -21,6 +22,10 @@ GerberAImport4SL6.ini
 
 pack7z.bat
 pack7z.txt
+
+
+*.pdf
+*.png
 
 *.bak
 *.lnk
