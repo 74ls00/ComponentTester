@@ -1,1 +1,17 @@
 tags
+
+
+english
+german
+old
+FIG
+GNU
+PNG
+
+
+Makefile
+*.aux
+*.tex
+*.toc
+*.log
+*.out
