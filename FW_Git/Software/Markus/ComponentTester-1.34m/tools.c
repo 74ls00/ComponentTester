@@ -1667,7 +1667,7 @@ void Zener_Tool(void)
     {
       /* get voltage (10:1 voltage divider) */
       Value = ReadU(TP_ZENER);     /* special probe pin */
-      Value /= 10;                 /* scale to 0.1V */
+      Value /= 10;                 /* scale to 0.1V */ /*Value /= 10; */
 
       /* display voltage */
       if (Counter % 8 == 0)        /* every 8 loop runs (240ms) */
