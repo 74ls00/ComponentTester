@@ -25971,10 +25971,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="ZEN_K1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="ZEN_A1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="DA5" library="mc34063-2" deviceset="MC34063" device="AD"/>
-<part name="3L2" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="180uH"/>
-<part name="3D2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="1N5819"/>
+<part name="3L2" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="230uH"/>
+<part name="3D2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="RK19(1N5819)"/>
 <part name="3C5" library="resistor" deviceset="C-EU" device="C0805K" value="1n"/>
-<part name="3C6" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="47u/50V"/>
+<part name="3C6" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="22u/100V"/>
 <part name="3C7" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U$31" library="lib-user" deviceset="GND" device=""/>
 <part name="U$32" library="lib-user" deviceset="GND" device=""/>
@@ -25987,7 +25987,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="VT5" library="DSS" deviceset="NMOS" device="D"/>
 <part name="U$34" library="lib-user" deviceset="GND" device=""/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="3R1B1" library="resistor" deviceset="R-EU_" device="R0805" value="1R"/>
+<part name="3R1B1" library="resistor" deviceset="R-EU_" device="R0805" value="2R"/>
 <part name="SUPPLY6" library="supply2" deviceset="V+" device=""/>
 <part name="2L4" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="220uH"/>
 <part name="U$36" library="lib-user" deviceset="GND" device=""/>
@@ -26073,7 +26073,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="U$53" library="lib-user" deviceset="GND" device=""/>
 <part name="1R25" library="resistor" deviceset="R-EU_" device="R0805" value="2K2"/>
 <part name="1L2" library="rcl" deviceset="L-US" device="IRF-24" value="10mkhn"/>
-<part name="1C13" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="1C13" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U$54" library="lib-user" deviceset="GND" device=""/>
 <part name="4Y3" library="relay_ussr" deviceset="РЭС55" device="А" value="РЭС55А"/>
 <part name="4Y4" library="relay_ussr" deviceset="РЭС55" device="А" value="РЭС55А"/>
@@ -26113,6 +26113,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="T7" library="transistor" deviceset="*-NPN-" device="TO92-ECB"/>
 <part name="U$12" library="lib-user" deviceset="GND" device=""/>
+<part name="3R1B2" library="resistor" deviceset="R-EU_" device="R0805" value="2R"/>
 </parts>
 <sheets>
 <sheet>
@@ -26887,7 +26888,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="NAME" x="129.54" y="78.74" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="119.38" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="3L2" gate="G$1" x="127" y="83.82" rot="R90"/>
+<instance part="3L2" gate="G$1" x="127" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="124.46" y="87.63" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="134.62" y="87.63" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="3D2" gate="G$1" x="149.86" y="73.66" smashed="yes">
 <attribute name="NAME" x="149.86" y="79.2226" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.32" y="76.4286" size="1.778" layer="96"/>
@@ -26924,9 +26928,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </instance>
 <instance part="U$34" gate="G$1" x="144.78" y="25.4"/>
 <instance part="R8" gate="G$1" x="129.54" y="25.4" rot="R90"/>
-<instance part="3R1B1" gate="G$1" x="91.44" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="89.9414" y="67.31" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="88.138" y="80.01" size="1.778" layer="96" rot="R270"/>
+<instance part="3R1B1" gate="G$1" x="93.98" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="92.4814" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="90.678" y="80.01" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY6" gate="1" x="81.28" y="63.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="82.55" y="67.31" size="1.778" layer="96" rot="R180"/>
@@ -27085,6 +27089,10 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <attribute name="VALUE" x="93.98" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="U$12" gate="G$1" x="106.68" y="15.24"/>
+<instance part="3R1B2" gate="G$1" x="88.9" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="87.4014" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="85.598" y="80.01" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27329,13 +27337,15 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="DA5" gate="G$1" pin="VCC"/>
 <wire x1="111.76" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="1" pin="V+"/>
-<wire x1="99.06" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="68.58" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <junction x="99.06" y="63.5"/>
-<wire x1="91.44" y1="68.58" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="68.58" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-<junction x="91.44" y="63.5"/>
+<junction x="93.98" y="63.5"/>
+<pinref part="3R1B2" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="68.58" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -27411,10 +27421,14 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="109.22" y1="83.82" x2="119.38" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="83.82" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="78.74" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="78.74" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <junction x="99.06" y="83.82"/>
 <junction x="109.22" y="83.82"/>
+<pinref part="3R1B2" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="78.74" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<junction x="93.98" y="83.82"/>
 </segment>
 </net>
 <net name="N$58" class="0">
