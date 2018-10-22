@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36844,6 +36844,8 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="0" width="0.254" layer="90"/>
 <wire x1="73.66" y1="91.44" x2="276.86" y2="91.44" width="0.254" layer="90"/>
 <wire x1="124.46" y1="-33.02" x2="154.94" y2="-33.02" width="0.4064" layer="94" style="shortdash"/>
+<circle x="125.73" y="-36.195" radius="0.1778" width="0.762" layer="94"/>
+<circle x="146.05" y="-36.195" radius="0.1778" width="0.762" layer="94"/>
 </plain>
 <instances>
 <instance part="DA3" gate="G$1" x="45.72" y="170.18" smashed="yes">
