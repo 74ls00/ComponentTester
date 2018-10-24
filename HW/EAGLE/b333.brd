@@ -156,18 +156,18 @@
 <circle x="3.429" y="96.52" radius="1.5" width="0.4064" layer="16"/>
 <circle x="78.359" y="96.52" radius="1.5" width="0.4064" layer="16"/>
 <circle x="78.359" y="65.532" radius="1.5" width="0.4064" layer="16"/>
-<dimension x1="-4.445" y1="156.845" x2="3.81" y2="100.965" x3="-0.3175" y3="141.605" textsize="3.5" layer="1" dtype="horizontal"/>
-<dimension x1="81.915" y1="100.33" x2="83.82" y2="47.625" x3="125.095" y3="73.9775" textsize="3.5" layer="1" dtype="vertical"/>
-<dimension x1="-4.445" y1="93.345" x2="86.36" y2="100.33" x3="40.9575" y3="151.765" textsize="3.5" layer="1" dtype="horizontal"/>
-<dimension x1="78.105" y1="100.965" x2="-6.0325" y2="217.17" x3="36.03625" y3="139.7" textsize="3.5" layer="1" dtype="horizontal"/>
+<dimension x1="-4.445" y1="156.845" x2="3.81" y2="100.965" x3="-0.3175" y3="141.605" layer="1" dtype="horizontal"/>
+<dimension x1="81.915" y1="100.33" x2="83.82" y2="47.625" x3="125.095" y3="73.9775"  layer="1" dtype="vertical"/>
+<dimension x1="-4.445" y1="93.345" x2="86.36" y2="100.33" x3="40.9575" y3="151.765" layer="1" dtype="horizontal"/>
+<dimension x1="78.105" y1="100.965" x2="-6.0325" y2="217.17" x3="36.03625" y3="139.7" layer="1" dtype="horizontal"/>
 <circle x="132.461" y="260.985" radius="1.5" width="0.4064" layer="1"/>
 <circle x="132.461" y="229.87" radius="1.5" width="0.4064" layer="1"/>
-<dimension x1="36.195" y1="261.9375" x2="35.56" y2="240.665" x3="2.2225" y3="251.30125" textsize="3.5" layer="21" dtype="vertical"/>
-<dimension x1="6.6675" y1="239.0775" x2="32.385" y2="233.9975" x3="19.52625" y3="265.7475" textsize="3.5" layer="21" dtype="horizontal"/>
-<dimension x1="21.2725" y1="221.2975" x2="44.7675" y2="209.2325" x3="33.02" y3="326.39" textsize="3.5" layer="21" dtype="horizontal"/>
-<dimension x1="135.5725" y1="273.05" x2="195.2625" y2="239.7125" x3="-29.845" y3="256.38125" textsize="3.5" layer="21" dtype="vertical"/>
-<dimension x1="71.755" y1="214.9475" x2="102.235" y2="209.2325" x3="86.995" y3="323.5325" textsize="3.5" layer="21" dtype="horizontal"/>
-<dimension x1="150.8125" y1="302.26" x2="178.1175" y2="218.7575" x3="-40.005" y3="260.50875" textsize="3.5" layer="21" dtype="vertical"/>
+<dimension x1="36.195" y1="261.9375" x2="35.56" y2="240.665" x3="2.2225" y3="251.30125"  layer="21" dtype="vertical"/>
+<dimension x1="6.6675" y1="239.0775" x2="32.385" y2="233.9975" x3="19.52625" y3="265.7475"  layer="21" dtype="horizontal"/>
+<dimension x1="21.2725" y1="221.2975" x2="44.7675" y2="209.2325" x3="33.02" y3="326.39" layer="21" dtype="horizontal"/>
+<dimension x1="135.5725" y1="273.05" x2="195.2625" y2="239.7125" x3="-29.845" y3="256.38125"  layer="21" dtype="vertical"/>
+<dimension x1="71.755" y1="214.9475" x2="102.235" y2="209.2325" x3="86.995" y3="323.5325"  layer="21" dtype="horizontal"/>
+<dimension x1="150.8125" y1="302.26" x2="178.1175" y2="218.7575" x3="-40.005" y3="260.50875"  layer="21" dtype="vertical"/>
 <circle x="207.391" y="260.985" radius="1.5" width="0.4064" layer="1"/>
 <circle x="207.391" y="229.87" radius="1.5" width="0.4064" layer="1"/>
 </plain>
