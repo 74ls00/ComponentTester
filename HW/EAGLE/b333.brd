@@ -3971,16 +3971,16 @@ diameter 9 mm, grid 5.08 mm</description>
 <element name="ZEN_K1" library="pinhead" package="1X01" value="" x="213.6775" y="64.77" rot="MR270"/>
 <element name="ZEN_A1" library="pinhead" package="1X01" value="" x="204.47" y="66.9925" rot="MR270"/>
 <element name="2L4" library="rcl" package="6000-XXXX-RC" value="220uH" x="237.49" y="89.2175" rot="MR270"/>
-<element name="3C9" library="resistor" package="E2,5-6" value="10u/100V" x="209.55" y="72.39" rot="MR270"/>
-<element name="3C10" library="resistor" package="C025-025X050" value="100n" x="214.3125" y="72.0725" rot="R90"/>
-<element name="D9" library="diode" package="SOD80C" value="LL4148" x="226.3775" y="71.12" rot="MR90"/>
+<element name="6C5" library="resistor" package="E2,5-6" value="10u/100V" x="209.55" y="72.39" rot="MR270"/>
+<element name="6C6" library="resistor" package="C025-025X050" value="100n" x="214.3125" y="72.0725" rot="R90"/>
+<element name="6VD2" library="diode" package="SOD80C" value="LL4148" x="226.3775" y="71.12" rot="MR90"/>
 <element name="VT6" library="transistor-pnp" package="TO92-BCE" value="КТ502" x="220.6625" y="61.2775" rot="MR270"/>
-<element name="R10" library="resistor" package="R0805" value="1k2" x="220.6625" y="71.755" rot="MR270"/>
-<element name="R11" library="resistor" package="R0805" value="300" x="218.1225" y="71.755" rot="MR270"/>
-<element name="R12" library="resistor" package="R0805" value="150" x="223.2025" y="71.755" rot="MR270"/>
-<element name="D10" library="diode" package="SOD80C" value="LL4148" x="226.3775" y="65.7225" rot="MR90"/>
-<element name="D11" library="diode" package="SOD80C" value="LL4148" x="226.3775" y="60.325" rot="MR90"/>
-<element name="R13" library="resistor" package="R0805" value="39k" x="216.2175" y="56.8325" rot="MR180"/>
+<element name="6R7" library="resistor" package="R0805" value="1k2" x="220.6625" y="71.755" rot="MR270"/>
+<element name="6R8" library="resistor" package="R0805" value="300" x="218.1225" y="71.755" rot="MR270"/>
+<element name="6R6" library="resistor" package="R0805" value="150" x="223.2025" y="71.755" rot="MR270"/>
+<element name="6VD3" library="diode" package="SOD80C" value="LL4148" x="226.3775" y="65.7225" rot="MR90"/>
+<element name="6VD4" library="diode" package="SOD80C" value="LL4148" x="226.3775" y="60.325" rot="MR90"/>
+<element name="6R9" library="resistor" package="R0805" value="39k" x="216.2175" y="56.8325" rot="MR180"/>
 <element name="5MA" library="jumper" package="JP2" value="10MA" x="220.6625" y="67.31" rot="MR0"/>
 <element name="DA1" library="TP4056" package="SOP-8" value="TP4056" x="127.635" y="97.79" rot="MR180"/>
 <element name="R19" library="resistor" package="R0805" value="0.5" x="124.7775" y="102.5525" rot="MR270"/>
@@ -4055,22 +4055,22 @@ diameter 9 mm, grid 5.08 mm</description>
 <element name="3C12" library="resistor" package="E2,5-6" value="47u" x="280.67" y="10.16"/>
 <element name="C18" library="resistor" package="C0805K" value="100n" x="279.4" y="4.445"/>
 <element name="J_ONE5V" library="jumper" package="SJ" value="" x="267.335" y="8.255"/>
-<element name="3C13" library="resistor" package="C025-025X050" value="100n" x="210.185" y="61.9125" rot="R270"/>
-<element name="R15" library="resistor" package="R0805" value="20.0k" x="207.3275" y="62.5475" rot="MR90"/>
-<element name="R16" library="resistor" package="R0805" value="330.0k" x="213.36" y="62.23" rot="MR180"/>
-<element name="VT4" library="transistor-pnp" package="TO92-BCE" value="МП15" x="210.185" y="108.585" rot="R90"/>
+<element name="6C7" library="resistor" package="C025-025X050" value="100n" x="210.185" y="61.9125" rot="R270"/>
+<element name="6R12" library="resistor" package="R0805" value="20.0k" x="207.3275" y="62.5475" rot="MR90"/>
+<element name="6R11" library="resistor" package="R0805" value="330.0k" x="213.36" y="62.23" rot="MR180"/>
+<element name="6VT3" library="transistor-pnp" package="TO92-BCE" value="МП15" x="210.185" y="108.585" rot="R90"/>
 <element name="DA7" library="mc34063-2" package="SOIC8" value="MC34063AD" x="222.5675" y="101.2825" rot="MR90"/>
-<element name="3C14" library="resistor" package="C0805K" value="1n" x="213.995" y="105.0925" rot="MR0"/>
-<element name="3R9" library="resistor" package="R0805" value="120k" x="228.6" y="100.33" rot="MR180"/>
-<element name="3R11" library="resistor" package="R0805" value="180R" x="225.7425" y="95.885" rot="MR90"/>
-<element name="3R12" library="resistor" package="R1206" value="1R" x="221.9325" y="94.615" rot="MR180"/>
-<element name="3C17" library="resistor" package="E2,5-6" value="100u" x="212.4075" y="80.9625" rot="R270"/>
-<element name="VT1" library="DSS" package="DPACK_1" value="NMOSD" x="220.98" y="108.9025" rot="MR90"/>
-<element name="R4" library="resistor" package="R0805" value="100k" x="214.63" y="105.0925"/>
-<element name="3R1B3" library="resistor" package="R1206" value="2R" x="221.9325" y="96.8375" rot="MR180"/>
-<element name="R29" library="resistor" package="R0805" value="10k" x="206.0575" y="110.1725"/>
-<element name="3R1B4" library="resistor" package="R1206" value="2R" x="221.9325" y="92.3925" rot="MR180"/>
-<element name="3C16" library="ct-pack" package="TT5D9L" value="22u/100V" x="212.09" y="87.3125"/>
+<element name="6C2" library="resistor" package="C0805K" value="1n" x="213.995" y="105.0925" rot="MR0"/>
+<element name="6R4" library="resistor" package="R0805" value="120k" x="228.6" y="100.33" rot="MR180"/>
+<element name="6R2" library="resistor" package="R0805" value="180R" x="225.7425" y="95.885" rot="MR90"/>
+<element name="6R1C" library="resistor" package="R1206" value="1R" x="221.9325" y="94.615" rot="MR180"/>
+<element name="6C1" library="resistor" package="E2,5-6" value="100u" x="212.4075" y="80.9625" rot="R270"/>
+<element name="6VT2" library="DSS" package="DPACK_1" value="NMOSD" x="220.98" y="108.9025" rot="MR90"/>
+<element name="6R15" library="resistor" package="R0805" value="100k" x="214.63" y="105.0925"/>
+<element name="6R1B" library="resistor" package="R1206" value="2R" x="221.9325" y="96.8375" rot="MR180"/>
+<element name="6R13" library="resistor" package="R0805" value="10k" x="206.0575" y="110.1725"/>
+<element name="6R1A" library="resistor" package="R1206" value="2R" x="221.9325" y="92.3925" rot="MR180"/>
+<element name="6C3" library="ct-pack" package="TT5D9L" value="22u/100V" x="212.09" y="87.3125"/>
 <element name="Q1" library="transistor-pnp" package="TO92-CBE" value="2N4126" x="57.785" y="91.1225" rot="R270"/>
 <element name="Q2" library="transistor-pnp" package="TO92-CBE" value="2N4126" x="62.5475" y="91.1225" rot="R270"/>
 <element name="R14" library="rcl" package="M0805" value="100" x="57.15" y="96.8375" rot="MR90"/>
@@ -4096,22 +4096,22 @@ diameter 9 mm, grid 5.08 mm</description>
 <element name="R34" library="rcl" package="M0805" value="15k" x="55.88" y="85.4075" rot="MR90"/>
 <element name="R35" library="rcl" package="RTRIM3296W" value="" x="59.69" y="78.74" rot="R90"/>
 <element name="J_PD4" library="jumper" package="SJ" value="" x="105.0925" y="96.8375" rot="MR90"/>
-<element name="D1" library="diode" package="DO41-10" value="UF4007" x="230.505" y="97.79" rot="R90"/>
-<element name="3R10" library="resistor" package="R0805" value="2K" x="222.25" y="104.775" rot="MR180"/>
-<element name="3C15" library="resistor" package="C050-025X075" value="100n" x="212.09" y="85.09"/>
+<element name="6VD1" library="diode" package="DO41-10" value="UF4007" x="230.505" y="97.79" rot="R90"/>
+<element name="6R5" library="resistor" package="R0805" value="2K" x="222.25" y="104.775" rot="MR180"/>
+<element name="6C4" library="resistor" package="C050-025X075" value="100n" x="212.09" y="85.09"/>
 <element name="3L2Y" library="b333" package="1X01" value="" x="228.2825" y="104.4575"/>
 <element name="3L2G" library="b333" package="1X01" value="" x="217.17" y="99.695"/>
 <element name="3L2B" library="b333" package="1X01" value="" x="217.17" y="90.17" rot="R180"/>
 <element name="L" library="b333" package="L" value="L" x="223.8375" y="95.25" rot="R90"/>
 <element name="SL1" library="b333" package="1X01" value="" x="217.4875" y="95.25"/>
 <element name="SL2" library="b333" package="1X01" value="" x="229.5525" y="95.25" rot="R180"/>
-<element name="R8" library="resistor" package="R0805" value="10k" x="213.36" y="108.2675" rot="R270"/>
+<element name="6R14" library="resistor" package="R0805" value="10k" x="213.36" y="108.2675" rot="R270"/>
 <element name="U$8" library="b333" package="F18650" value="" x="185.7375" y="122.555"/>
 <element name="X2" library="SmartPrj" package="CON2_USB_MICRO_B_AT" value="USB MICRO" x="226.06" y="128.27" rot="R180"/>
 <element name="VT3" library="FS8205A" package="TSSOP-8" value="FS8205A" x="226.06" y="118.11" rot="R270"/>
 <element name="TEST2" library="transistor_tester" package="TT-P" value="TT-P" x="187.96" y="70.8025"/>
-<element name="3R5" library="resistor" package="R0805" value="20K" x="228.6" y="98.1075" rot="MR0"/>
-<element name="R18" library="resistor" package="R0805" value="10.0k" x="216.535" y="60.6425" rot="MR180"/>
+<element name="6R3" library="resistor" package="R0805" value="20K" x="228.6" y="98.1075" rot="MR0"/>
+<element name="6R10" library="resistor" package="R0805" value="10.0k" x="216.535" y="60.6425" rot="MR180"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -4186,8 +4186,8 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="245.1735" y1="27.305" x2="244.84" y2="24.765" width="0.4064" layer="1"/>
 <wire x1="244.84" y1="24.765" x2="246.6975" y2="24.19" width="0.4064" layer="1"/>
 <contactref element="ZEN_A1" pad="1"/>
-<contactref element="3C9" pad="-"/>
-<contactref element="R13" pad="1"/>
+<contactref element="6C5" pad="-"/>
+<contactref element="6R9" pad="1"/>
 <contactref element="2R7" pad="1"/>
 <contactref element="C6" pad="2"/>
 <contactref element="GND" pad="B-"/>
@@ -4227,8 +4227,8 @@ diameter 9 mm, grid 5.08 mm</description>
 <contactref element="DA6" pad="4"/>
 <contactref element="3C12" pad="-"/>
 <contactref element="C18" pad="2"/>
-<contactref element="R15" pad="1"/>
-<contactref element="3C13" pad="2"/>
+<contactref element="6R12" pad="1"/>
+<contactref element="6C7" pad="2"/>
 <wire x1="95.71565625" y1="90.13601875" x2="92.3925" y2="90.17" width="0.3048" layer="16"/>
 <wire x1="92.3925" y1="90.17" x2="92.0275" y2="88.9" width="0.3048" layer="16"/>
 <wire x1="92.0275" y1="86.995" x2="92.0275" y2="88.9" width="0.3048" layer="16"/>
@@ -4242,10 +4242,10 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="105.7275" y1="94.615" x2="108.585" y2="94.615" width="0.3048" layer="16"/>
 <wire x1="108.585" y1="94.615" x2="108.92533125" y2="91.464603125" width="0.3048" layer="16"/>
 <wire x1="101.816721875" y1="91.8077875" x2="104.031509375" y2="92.41466875" width="0.3048" layer="16"/>
-<contactref element="3C17" pad="-"/>
-<contactref element="VT1" pad="S"/>
-<contactref element="3C14" pad="2"/>
-<contactref element="3C16" pad="-"/>
+<contactref element="6C1" pad="-"/>
+<contactref element="6VT2" pad="S"/>
+<contactref element="6C2" pad="2"/>
+<contactref element="6C3" pad="-"/>
 <contactref element="R26" pad="1"/>
 <contactref element="C9" pad="2"/>
 <contactref element="Q1" pad="C"/>
@@ -4276,9 +4276,9 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="95.25" y1="99.3775" x2="89.8525" y2="99.3775" width="0.3048" layer="16"/>
 <wire x1="89.8525" y1="99.3775" x2="89.535" y2="89.2175" width="0.3048" layer="16"/>
 <wire x1="89.535" y1="89.2175" x2="92.0275" y2="88.9" width="0.3048" layer="16"/>
-<contactref element="3C15" pad="1"/>
-<contactref element="3C10" pad="1"/>
-<contactref element="R8" pad="1"/>
+<contactref element="6C4" pad="1"/>
+<contactref element="6C6" pad="1"/>
+<contactref element="6R14" pad="1"/>
 <wire x1="216.18" y1="111.1825" x2="214.3125" y2="111.125" width="0.3048" layer="16"/>
 <via x="214.3125" y="111.125" extent="1-16" drill="0.8" diameter="2.3"/>
 <wire x1="214.3125" y1="111.125" x2="213.6775" y2="110.1725" width="0.3048" layer="1"/>
@@ -4341,7 +4341,7 @@ diameter 9 mm, grid 5.08 mm</description>
 <contactref element="DD1" pad="26"/>
 <contactref element="VT6" pad="C"/>
 <contactref element="ZEN_K1" pad="1"/>
-<contactref element="R18" pad="2"/>
+<contactref element="6R10" pad="2"/>
 <wire x1="217.385" y1="60.6425" x2="220.6625" y2="61.2775" width="0" layer="19" extent="16-16"/>
 <wire x1="213.6775" y1="64.77" x2="217.385" y2="60.6425" width="0" layer="19" extent="16-16"/>
 <wire x1="151.13" y1="73.025" x2="213.6775" y2="64.77" width="0" layer="19" extent="1-1"/>
@@ -4389,12 +4389,12 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="247.9675" y1="11.7475" x2="247.7525" y2="15.24" width="0.4064" layer="1"/>
 <wire x1="257.4925" y1="17.7325" x2="259.715" y2="17.145" width="0.4064" layer="1"/>
 <contactref element="1R10" pad="1"/>
-<contactref element="3C17" pad="+"/>
-<contactref element="3R1B3" pad="1"/>
-<contactref element="3R12" pad="1"/>
+<contactref element="6C1" pad="+"/>
+<contactref element="6R1B" pad="1"/>
+<contactref element="6R1C" pad="1"/>
 <contactref element="DA7" pad="6"/>
-<contactref element="3R1B4" pad="1"/>
-<contactref element="VT4" pad="E"/>
+<contactref element="6R1A" pad="1"/>
+<contactref element="6VT3" pad="E"/>
 <wire x1="212.725" y1="92.71" x2="219.71" y2="92.71" width="0.3048" layer="16"/>
 <wire x1="225.1675" y1="101.9175" x2="222.885" y2="101.9175" width="0.3048" layer="16"/>
 <wire x1="222.885" y1="101.9175" x2="222.25" y2="98.7425" width="0.3048" layer="16"/>
@@ -4460,53 +4460,53 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="242.84" y1="24.765" x2="236.4975" y2="26.67" width="0.4064" layer="1"/>
 </signal>
 <signal name="+90.5V">
-<contactref element="D9" pad="A"/>
-<contactref element="R11" pad="1"/>
-<contactref element="R10" pad="1"/>
-<contactref element="R12" pad="1"/>
+<contactref element="6VD2" pad="A"/>
+<contactref element="6R8" pad="1"/>
+<contactref element="6R7" pad="1"/>
+<contactref element="6R6" pad="1"/>
 <wire x1="223.2025" y1="72.605" x2="220.6625" y2="72.605" width="0.8128" layer="16"/>
 <wire x1="218.1225" y1="72.605" x2="220.6625" y2="72.605" width="0.8128" layer="16"/>
 <wire x1="226.3775" y1="72.82" x2="223.735" y2="72.82" width="0.8128" layer="16"/>
 <wire x1="223.735" y1="72.82" x2="223.2025" y2="72.605" width="0.8128" layer="16"/>
 <contactref element="2L4" pad="2"/>
-<contactref element="3C10" pad="2"/>
-<contactref element="3C9" pad="+"/>
+<contactref element="6C6" pad="2"/>
+<contactref element="6C5" pad="+"/>
 <wire x1="226.3775" y1="72.82" x2="237.49" y2="86.7175" width="0" layer="19" extent="16-16"/>
 <wire x1="214.3125" y1="73.3425" x2="218.1225" y2="72.605" width="0" layer="19" extent="16-16"/>
 <wire x1="209.55" y1="73.66" x2="214.3125" y2="73.3425" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="1MA">
 <contactref element="VT6" pad="E"/>
-<contactref element="R10" pad="2"/>
+<contactref element="6R7" pad="2"/>
 <contactref element="5MA" pad="2"/>
 <wire x1="220.6625" y1="67.31" x2="220.6625" y2="63.8175" width="0.4064" layer="16"/>
 <wire x1="220.6625" y1="67.31" x2="220.6625" y2="70.905" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$65">
-<contactref element="D9" pad="C"/>
-<contactref element="D10" pad="A"/>
+<contactref element="6VD2" pad="C"/>
+<contactref element="6VD3" pad="A"/>
 <wire x1="226.3775" y1="69.42" x2="226.3775" y2="67.4225" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$66">
-<contactref element="D10" pad="C"/>
-<contactref element="D11" pad="A"/>
+<contactref element="6VD3" pad="C"/>
+<contactref element="6VD4" pad="A"/>
 <wire x1="226.3775" y1="64.0225" x2="226.3775" y2="62.025" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$67">
-<contactref element="D11" pad="C"/>
+<contactref element="6VD4" pad="C"/>
 <contactref element="VT6" pad="B"/>
-<contactref element="R13" pad="2"/>
+<contactref element="6R9" pad="2"/>
 <wire x1="217.0675" y1="56.8325" x2="220.6625" y2="58.7375" width="0.4064" layer="16"/>
 <wire x1="226.3775" y1="58.625" x2="220.775" y2="58.625" width="0.8128" layer="16"/>
 <wire x1="220.775" y1="58.625" x2="220.6625" y2="58.7375" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$55">
-<contactref element="R11" pad="2"/>
+<contactref element="6R8" pad="2"/>
 <contactref element="5MA" pad="3"/>
 <wire x1="218.1225" y1="67.31" x2="218.1225" y2="70.905" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$59">
-<contactref element="R12" pad="2"/>
+<contactref element="6R6" pad="2"/>
 <contactref element="5MA" pad="1"/>
 <wire x1="223.2025" y1="70.905" x2="223.2025" y2="67.31" width="0.8128" layer="16"/>
 </signal>
@@ -4935,7 +4935,7 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="278.8525" y1="16.03" x2="279.4" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
-<contactref element="3C14" pad="1"/>
+<contactref element="6C2" pad="1"/>
 <contactref element="DA7" pad="3"/>
 <wire x1="214.995" y1="105.0925" x2="217.17" y2="105.0925" width="0.3048" layer="16"/>
 <wire x1="217.17" y1="105.0925" x2="217.4875" y2="105.0925" width="0.3048" layer="16"/>
@@ -4949,23 +4949,23 @@ diameter 9 mm, grid 5.08 mm</description>
 </signal>
 <signal name="N$25">
 <contactref element="DA7" pad="5"/>
-<contactref element="3R9" pad="1"/>
-<contactref element="3R10" pad="2"/>
+<contactref element="6R4" pad="1"/>
+<contactref element="6R5" pad="2"/>
 <wire x1="223.1" y1="104.775" x2="225.1675" y2="103.1875" width="0.3048" layer="16"/>
 <wire x1="227.75" y1="100.33" x2="227.0125" y2="102.5525" width="0.3048" layer="16"/>
 <wire x1="227.0125" y1="102.5525" x2="225.1675" y2="103.1875" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$52">
-<contactref element="3R11" pad="2"/>
+<contactref element="6R2" pad="2"/>
 <contactref element="DA7" pad="8"/>
 <wire x1="225.7425" y1="96.735" x2="225.1675" y2="99.3775" width="0.3048" layer="16"/>
 </signal>
 <signal name="Z_BLUE">
 <contactref element="DA7" pad="7"/>
-<contactref element="3R11" pad="1"/>
-<contactref element="3R12" pad="2"/>
-<contactref element="3R1B3" pad="2"/>
-<contactref element="3R1B4" pad="2"/>
+<contactref element="6R2" pad="1"/>
+<contactref element="6R1C" pad="2"/>
+<contactref element="6R1B" pad="2"/>
+<contactref element="6R1A" pad="2"/>
 <contactref element="3L2B" pad="1"/>
 <wire x1="225.1675" y1="100.6475" x2="223.52" y2="100.33" width="0.3048" layer="16"/>
 <wire x1="223.52" y1="100.33" x2="223.52" y2="98.1075" width="0.3048" layer="16"/>
@@ -4978,22 +4978,22 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="222.885" y1="90.4875" x2="223.3545" y2="92.3925" width="0.3048" layer="16"/>
 </signal>
 <signal name="!BUTTON1">
-<contactref element="R29" pad="1"/>
+<contactref element="6R13" pad="1"/>
 </signal>
 <signal name="N$95">
-<contactref element="R29" pad="2"/>
-<contactref element="VT4" pad="B"/>
+<contactref element="6R13" pad="2"/>
+<contactref element="6VT3" pad="B"/>
 <wire x1="210.185" y1="111.125" x2="206.9075" y2="110.1725" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$96">
-<contactref element="VT1" pad="G"/>
-<contactref element="R4" pad="2"/>
+<contactref element="6VT2" pad="G"/>
+<contactref element="6R15" pad="2"/>
 <wire x1="216.18" y1="106.6225" x2="216.2175" y2="108.2675" width="0.3048" layer="16"/>
 <via x="216.2175" y="108.2675" extent="1-16" drill="0.8" diameter="2.3"/>
 <wire x1="216.2175" y1="108.2675" x2="215.48" y2="105.0925" width="0.3048" layer="1"/>
 </signal>
 <signal name="Z_YELLOW">
-<contactref element="D1" pad="A"/>
+<contactref element="6VD1" pad="A"/>
 <contactref element="3L2Y" pad="1"/>
 <wire x1="230.505" y1="102.87" x2="228.2825" y2="104.4575" width="0.3048" layer="16"/>
 </signal>
@@ -5095,10 +5095,10 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="105.0925" y1="93.345" x2="105.0925" y2="96.0755" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$12">
-<contactref element="3R10" pad="1"/>
+<contactref element="6R5" pad="1"/>
 <contactref element="DA7" pad="4"/>
 <contactref element="DA7" pad="2"/>
-<contactref element="VT1" pad="D"/>
+<contactref element="6VT2" pad="D"/>
 <wire x1="219.3925" y1="105.7275" x2="221.74575625" y2="107.5554125" width="0.3048" layer="16"/>
 <wire x1="221.74575625" y1="107.5554125" x2="223.48" y2="108.9025" width="0.3048" layer="16"/>
 <wire x1="219.3925" y1="105.7275" x2="219.62316875" y2="104.713815625" width="0.3048" layer="16"/>
@@ -5109,9 +5109,9 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="221.4" y1="104.775" x2="221.74575625" y2="107.5554125" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$21">
-<contactref element="R8" pad="2"/>
-<contactref element="R4" pad="1"/>
-<contactref element="VT4" pad="C"/>
+<contactref element="6R14" pad="2"/>
+<contactref element="6R15" pad="1"/>
+<contactref element="6VT3" pad="C"/>
 <wire x1="213.36" y1="107.4175" x2="210.185" y2="108.585" width="0.3048" layer="1"/>
 <wire x1="213.78" y1="105.0925" x2="213.36" y2="106.045" width="0.3048" layer="1"/>
 <wire x1="213.36" y1="106.045" x2="213.36" y2="107.4175" width="0.3048" layer="1"/>
@@ -5123,11 +5123,11 @@ diameter 9 mm, grid 5.08 mm</description>
 <contactref element="X2" pad="P1"/>
 </signal>
 <signal name="N$19">
-<contactref element="D1" pad="C"/>
-<contactref element="3R5" pad="2"/>
+<contactref element="6VD1" pad="C"/>
+<contactref element="6R3" pad="2"/>
 <contactref element="2L4" pad="1"/>
-<contactref element="3C16" pad="+"/>
-<contactref element="3C15" pad="2"/>
+<contactref element="6C3" pad="+"/>
+<contactref element="6C4" pad="2"/>
 <wire x1="214.63" y1="87.3125" x2="214.63" y2="85.09" width="0.3048" layer="16"/>
 <wire x1="214.63" y1="87.3125" x2="224.155" y2="88.265" width="0.3048" layer="16"/>
 <wire x1="227.75" y1="98.1075" x2="227.6475" y2="93.0275" width="0.3048" layer="16"/>
@@ -5136,19 +5136,19 @@ diameter 9 mm, grid 5.08 mm</description>
 <wire x1="224.155" y1="88.265" x2="227.6475" y2="93.0275" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$23">
-<contactref element="3R5" pad="1"/>
-<contactref element="3R9" pad="2"/>
+<contactref element="6R3" pad="1"/>
+<contactref element="6R4" pad="2"/>
 <wire x1="229.45" y1="100.33" x2="229.45" y2="98.1075" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$24">
-<contactref element="R18" pad="1"/>
-<contactref element="R16" pad="2"/>
+<contactref element="6R10" pad="1"/>
+<contactref element="6R11" pad="2"/>
 <wire x1="215.685" y1="60.6425" x2="214.21" y2="62.23" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PC3">
-<contactref element="R15" pad="2"/>
-<contactref element="R16" pad="1"/>
-<contactref element="3C13" pad="1"/>
+<contactref element="6R12" pad="2"/>
+<contactref element="6R11" pad="1"/>
+<contactref element="6C7" pad="1"/>
 <wire x1="210.185" y1="63.1825" x2="212.51" y2="62.23" width="0" layer="19" extent="16-16"/>
 <wire x1="207.3275" y1="63.3975" x2="210.185" y2="63.1825" width="0" layer="19" extent="16-16"/>
 </signal>
