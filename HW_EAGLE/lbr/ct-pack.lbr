@@ -5424,8 +5424,7 @@ Source: TJ-Serie Vishay.pdf</description>
 <text x="-5.08" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LV7X10MM">
-<description>&lt;b&gt;Inductor&lt;/b&gt;&lt;p&gt;
-Source: TJ-Serie Vishay.pdf</description>
+<description>&lt;b&gt;Inductor&lt;/b&gt;&lt;p&gt;</description>
 <text x="-2.08" y="1.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.08" y="-2.405" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="21"/>
@@ -5463,8 +5462,7 @@ Source: TJ-Serie Vishay.pdf</description>
 <text x="-5.08" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="LH7X10MM">
-<description>&lt;b&gt;Inductor&lt;/b&gt;&lt;p&gt;
-Source: TJ-Serie Vishay.pdf</description>
+<description>&lt;b&gt;Inductor&lt;/b&gt;&lt;p&gt;</description>
 <text x="-2.88" y="2.935" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.78" y="1.195" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-3.5" y1="-5" x2="3.5" y2="-5" width="0.127" layer="21"/>
@@ -6251,6 +6249,40 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
 <rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
 <rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
+</package>
+<package name="JP2">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.016" x2="1.524" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.016" x2="1.524" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="-1.27" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="1.27" x2="3.81" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.016" x2="3.81" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="1.27" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.016" x2="-1.016" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-1.27" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.016" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="1.27" x2="-3.556" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.016" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-1.27" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.016" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-1.27" x2="-1.016" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.27" x2="-3.556" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.9144" shape="long" rot="R90"/>
+<text x="-3.556" y="1.651" size="1.27" layer="27" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
+<text x="0" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
+<text x="2.54" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-3.556" y="-4.318" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.8448" y1="-0.3048" x2="-2.2352" y2="0.3048" layer="51"/>
+<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51"/>
+<rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -8556,6 +8588,16 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 </technologies>
 </device>
 <device name="X5MM" package="05C">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JP2" package="JP2">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
