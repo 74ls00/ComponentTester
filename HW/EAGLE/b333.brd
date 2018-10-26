@@ -3969,7 +3969,7 @@ Source: TJ-Serie Vishay.pdf</description>
 <attribute name="NAME" x="255.0824" y="26.2919" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="263.5856" y="23.1169" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="2C1" library="resistor" package="C0805K" value="0.47n" x="248.6025" y="27.305"/>
+<element name="2C1" library="resistor" package="C0805K" value="150" x="248.6025" y="27.305"/>
 <element name="2R5" library="resistor" package="R0805" value="180R" x="253.0475" y="20.0025" rot="R90"/>
 <element name="2R6" library="resistor" package="R0805" value="1R" x="248.6025" y="15.24"/>
 <element name="C4" library="resistor" package="E2,5-6" value="50u" x="262.5725" y="17.78" rot="R90"/>
@@ -4077,13 +4077,13 @@ Source: TJ-Serie Vishay.pdf</description>
 <element name="6C2" library="resistor" package="C0805K" value="1n" x="213.995" y="105.0925" rot="MR0"/>
 <element name="6R4" library="resistor" package="R0805" value="120k" x="228.6" y="100.33" rot="MR180"/>
 <element name="6R2" library="resistor" package="R0805" value="180R" x="225.7425" y="95.885" rot="MR90"/>
-<element name="6R1C" library="resistor" package="R1206" value="1R" x="221.9325" y="94.615" rot="MR180"/>
+<element name="6R1C" library="resistor" package="R1206" value="" x="221.9325" y="94.615" rot="MR180"/>
 <element name="6C1" library="resistor" package="E2,5-6" value="100u" x="212.4075" y="80.9625" rot="R270"/>
 <element name="6VT2" library="DSS" package="DPACK_1" value="NMOSD" x="220.98" y="108.9025" rot="MR90"/>
 <element name="6R15" library="resistor" package="R0805" value="100k" x="214.63" y="105.0925"/>
-<element name="6R1B" library="resistor" package="R1206" value="2R" x="221.9325" y="96.8375" rot="MR180"/>
+<element name="6R1B" library="resistor" package="R1206" value="1R" x="221.9325" y="96.8375" rot="MR180"/>
 <element name="6R13" library="resistor" package="R0805" value="10k" x="206.0575" y="110.1725"/>
-<element name="6R1A" library="resistor" package="R1206" value="2R" x="221.9325" y="92.3925" rot="MR180"/>
+<element name="6R1A" library="resistor" package="R1206" value="1R" x="221.9325" y="92.3925" rot="MR180"/>
 <element name="6C3" library="ct-pack" package="TT5D9L" value="22u/100V" x="212.09" y="87.3125"/>
 <element name="Q1" library="transistor-pnp" package="TO92-CBE" value="2N4126" x="57.785" y="91.1225" rot="R270"/>
 <element name="Q2" library="transistor-pnp" package="TO92-CBE" value="2N4126" x="62.5475" y="91.1225" rot="R270"/>
@@ -4967,7 +4967,7 @@ Source: TJ-Serie Vishay.pdf</description>
 <contactref element="3L2G" pad="1"/>
 <wire x1="217.17" y1="99.695" x2="219.9675" y2="99.3775" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$25">
+<signal name="5">
 <contactref element="DA7" pad="5"/>
 <contactref element="6R4" pad="1"/>
 <contactref element="6R5" pad="2"/>

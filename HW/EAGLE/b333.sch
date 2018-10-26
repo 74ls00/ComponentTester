@@ -43541,7 +43541,7 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <parts>
 <part name="DA3" library="mc34063-2" deviceset="MC34063" device="AD"/>
 <part name="2L2" library="ct-pack" deviceset="L_" device="LH7X10MM" value="100uH"/>
-<part name="2C1" library="resistor" deviceset="C-EU" device="C0805K" value="0.47n"/>
+<part name="2C1" library="resistor" deviceset="C-EU" device="C0805K" value="150"/>
 <part name="U$6" library="lib-user" deviceset="GND" device=""/>
 <part name="2R5" library="resistor" deviceset="R-EU_" device="R0805" value="180R"/>
 <part name="2R6" library="resistor" deviceset="R-EU_" device="R0805" value="1R"/>
@@ -43687,18 +43687,18 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <part name="6C2" library="resistor" deviceset="C-EU" device="C0805K" value="1n"/>
 <part name="6R4" library="resistor" deviceset="R-EU_" device="R0805" value="120k"/>
 <part name="6R2" library="resistor" deviceset="R-EU_" device="R0805" value="180R"/>
-<part name="6R1C" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
+<part name="6R1C" library="resistor" deviceset="R-EU_" device="R1206"/>
 <part name="6C1" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="100u"/>
 <part name="U$15" library="lib-user" deviceset="GND" device=""/>
 <part name="6VT2" library="DSS" deviceset="NMOS" device="D"/>
 <part name="U$27" library="lib-user" deviceset="GND" device=""/>
 <part name="6R15" library="resistor" deviceset="R-EU_" device="R0805" value="100k"/>
-<part name="6R1B" library="resistor" deviceset="R-EU_" device="R1206" value="2R"/>
+<part name="6R1B" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="SUPPLY1" library="supply2" deviceset="V+" device=""/>
 <part name="6R13" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="SUPPLY10" library="supply2" deviceset="+5V/2" device=""/>
 <part name="U$65" library="lib-user" deviceset="GND" device=""/>
-<part name="6R1A" library="resistor" deviceset="R-EU_" device="R1206" value="2R"/>
+<part name="6R1A" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="6C3" library="ct-pack" deviceset="CPOL-EU" device="TT5D9L" value="22u/100V"/>
 <part name="U$14" library="lib-user" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" deviceset="DINA4_L" device=""/>
@@ -44550,7 +44550,7 @@ II 400w 0.15mm &gt; 6.8mH</text>
 </instance>
 <instance part="2C1" gate="G$1" x="66.04" y="160.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.596" y="157.099" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="72.136" y="154.559" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="69.596" y="154.559" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="U$6" gate="G$1" x="73.66" y="152.4"/>
 <instance part="2R5" gate="G$1" x="27.94" y="175.26" smashed="yes" rot="R270">
@@ -45521,7 +45521,7 @@ II 400w 0.15mm &gt; 6.8mH</text>
 <wire x1="137.16" y1="80.01" x2="137.16" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="5" class="0">
 <segment>
 <pinref part="DA7" gate="G$1" pin="FB"/>
 <wire x1="101.6" y1="40.64" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
