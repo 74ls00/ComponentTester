@@ -10,6 +10,13 @@ eagle.epf
 #mod.txt
 #TODO.txt
 
+rcl.lbr
+frames.lbr
+jumper.lbr
+v-reg.lbr
+
+
+
 Новый текстовый документ.txt
 
 
