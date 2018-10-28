@@ -44344,7 +44344,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="2C1" library="resistor" deviceset="C-EU" device="C0805K" value="150"/>
 <part name="U$6" library="lib-user" deviceset="GND" device=""/>
 <part name="2R5" library="resistor" deviceset="R-EU_" device="R0805" value="180R"/>
-<part name="2R6" library="resistor" deviceset="R-EU_" device="R0805" value="1R"/>
+<part name="2R6" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="U$10" library="lib-user" deviceset="GND" device=""/>
 <part name="C4" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="50u"/>
 <part name="2R7" library="resistor" deviceset="R-EU_" device="R0805" value="3.9k"/>
@@ -44553,7 +44553,7 @@ DIN A4, landscape with extra doc field</description>
 <part name="TEST2" library="transistor_tester" deviceset="TT-P" device=""/>
 <part name="6R3" library="resistor" deviceset="R-EU_" device="R0805" value="20K"/>
 <part name="6R10" library="resistor" deviceset="R-EU_" device="R0805" value="10.0k"/>
-<part name="2R1" library="resistor" deviceset="R-EU_" device="R0805" value="1R"/>
+<part name="2R1" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="JP3" library="b333" deviceset="PINHD-X16-8" device=""/>
 <part name="1R4" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="U$2" library="lib-user" deviceset="GND" device=""/>
