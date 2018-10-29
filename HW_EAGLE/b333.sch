@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="6" fill="1" visible="yes" active="no"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
@@ -44400,7 +44400,7 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <part name="5R1B" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="U$10" library="lib-user" deviceset="GND" device=""/>
 <part name="3C1" library="resistor" deviceset="CPOL-EU" device="E2.5-6" value="50u"/>
-<part name="5R3" library="resistor" deviceset="R-EU_" device="R0805" value="3.9k"/>
+<part name="5R3" library="resistor" deviceset="R-EU_" device="0204/7" value="3.9k"/>
 <part name="5R4" library="resistor" deviceset="R-EU_" device="R0805" value="18k"/>
 <part name="2D2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="SS12"/>
 <part name="5C3" library="resistor" deviceset="CPOL-EU" device="E2-5" value="330u/6V"/>
@@ -44473,7 +44473,7 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <part name="C10" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="U$50" library="lib-user" deviceset="GND" device=""/>
 <part name="U$51" library="lib-user" deviceset="GND" device=""/>
-<part name="1RC2*1" library="resistor" deviceset="R-EU_" device="R1206W" value="4K3"/>
+<part name="1RC3" library="resistor" deviceset="R-EU_" device="R1206W" value="4K3"/>
 <part name="1RC2" library="resistor" deviceset="R-EU_" device="R0805" value="22K"/>
 <part name="1C7" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="1R18" library="resistor" deviceset="R-EU_" device="R0805" value="27K"/>
@@ -44505,7 +44505,7 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <part name="4R7" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="C17" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
-<part name="1R26" library="resistor" deviceset="R-EU_" device="R1206W" value="270"/>
+<part name="1R26" library="resistor" deviceset="R-EU_" device="R0805" value="270"/>
 <part name="U$56" library="lib-user" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="ISP" library="con-lstb" deviceset="MA03-2" device=""/>
@@ -44655,9 +44655,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 </instance>
 <instance part="U$50" gate="G$1" x="45.72" y="81.28"/>
 <instance part="U$51" gate="G$1" x="259.08" y="124.46"/>
-<instance part="1RC2*1" gate="G$1" x="236.22" y="119.38" smashed="yes">
-<attribute name="NAME" x="232.41" y="120.8786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.41" y="116.078" size="1.778" layer="96"/>
+<instance part="1RC3" gate="G$1" x="243.84" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="242.3414" y="115.57" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="247.142" y="115.57" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="1RC2" gate="G$1" x="236.22" y="127" smashed="yes">
 <attribute name="NAME" x="232.41" y="128.4986" size="1.778" layer="95"/>
@@ -44752,7 +44752,7 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <attribute name="NAME" x="278.13" y="128.4986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="278.13" y="123.698" size="1.778" layer="96"/>
 </instance>
-<instance part="U$56" gate="G$1" x="228.6" y="116.84"/>
+<instance part="U$56" gate="G$1" x="243.84" y="111.76"/>
 <instance part="P+13" gate="1" x="154.94" y="50.8" smashed="yes">
 <attribute name="VALUE" x="157.48" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -44919,35 +44919,34 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <wire x1="160.02" y1="15.24" x2="160.02" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="238.76" y1="129.54" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="149.86" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="129.54" x2="238.76" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="139.7" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="129.54" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
-<junction x="248.92" y="129.54"/>
-<wire x1="259.08" y1="129.54" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="129.54" x2="254" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="254" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="139.7" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
-<junction x="259.08" y="129.54"/>
-<wire x1="256.54" y1="139.7" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
-<junction x="256.54" y="129.54"/>
-<wire x1="254" y1="139.7" x2="254" y2="129.54" width="0.1524" layer="91"/>
-<junction x="254" y="129.54"/>
-<wire x1="276.86" y1="149.86" x2="276.86" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="129.54" x2="261.62" y2="129.54" width="0.1524" layer="91"/>
-<junction x="261.62" y="129.54"/>
+<wire x1="238.76" y1="134.62" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="149.86" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="134.62" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="139.7" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
+<junction x="248.92" y="134.62"/>
+<wire x1="259.08" y1="134.62" x2="256.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="134.62" x2="254" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="254" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="139.7" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
+<junction x="259.08" y="134.62"/>
+<wire x1="256.54" y1="139.7" x2="256.54" y2="134.62" width="0.1524" layer="91"/>
+<junction x="256.54" y="134.62"/>
+<wire x1="254" y1="139.7" x2="254" y2="134.62" width="0.1524" layer="91"/>
+<junction x="254" y="134.62"/>
+<wire x1="276.86" y1="149.86" x2="276.86" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="134.62" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="261.62" y="134.62"/>
 <pinref part="U$51" gate="G$1" pin="GND"/>
-<wire x1="259.08" y1="124.46" x2="259.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="124.46" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="5"/>
 <pinref part="JP3" gate="A" pin="1"/>
 <pinref part="JP3" gate="A" pin="16"/>
 </segment>
 <segment>
-<pinref part="1RC2*1" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="119.38" x2="228.6" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="1RC3" gate="G$1" pin="1"/>
 <pinref part="U$56" gate="G$1" pin="GND"/>
-<wire x1="228.6" y1="119.38" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="114.3" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ISP" gate="1" pin="6"/>
@@ -44979,9 +44978,8 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <pinref part="1RC2" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="127" x2="243.84" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="127" x2="243.84" y2="127" width="0.1524" layer="91"/>
-<pinref part="1RC2*1" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="119.38" x2="243.84" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="119.38" x2="243.84" y2="127" width="0.1524" layer="91"/>
+<pinref part="1RC3" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="124.46" x2="243.84" y2="127" width="0.1524" layer="91"/>
 <junction x="243.84" y="127"/>
 <pinref part="JP3" gate="A" pin="3"/>
 </segment>
@@ -44990,13 +44988,15 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <segment>
 <wire x1="147.32" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="91.44" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="246.38" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="106.68" x2="246.38" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J_PD4" gate="1" pin="2"/>
 <label x="142.24" y="106.68" size="1.778" layer="95"/>
+<wire x1="246.38" y1="127" x2="246.38" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="106.68" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
 <junction x="149.86" y="106.68"/>
 <pinref part="JP3" gate="A" pin="4"/>
+<wire x1="248.92" y1="106.68" x2="248.92" y2="127" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="E1" class="0">
