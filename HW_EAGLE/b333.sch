@@ -44437,18 +44437,18 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <part name="U$40" library="lib-user" deviceset="GND" device=""/>
 <part name="U$41" library="lib-user" deviceset="GND" device=""/>
 <part name="DA1" library="TP4056" deviceset="TP4056" device=""/>
-<part name="R19" library="resistor" deviceset="R-EU_" device="R0805" value="0.5"/>
+<part name="R19" library="resistor" deviceset="R-EU_" device="M0805" value="0.5"/>
 <part name="VT2" library="TP4056+" deviceset="FS8205A" device="" value="FS8205A"/>
 <part name="DA2" library="TP4056+" deviceset="DW01" device="" value="DW01A"/>
 <part name="R20" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="R21" library="resistor" deviceset="R-EU_" device="R0805" value="100"/>
-<part name="RED" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="GREEN" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="R21" library="resistor" deviceset="R-EU_" device="R1206W" value="100"/>
+<part name="RED" library="led" deviceset="LED" device="5MM"/>
+<part name="GREEN" library="led" deviceset="LED" device="5MM"/>
 <part name="R22" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="R23" library="resistor" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="R24" library="resistor" deviceset="R-EU_" device="0204/7" value="1k2"/>
+<part name="R24" library="resistor" deviceset="R-EU_" device="0207/10" value="1k2"/>
 <part name="X1" library="SmartPrj" deviceset="MYCON2_USB-MINI-B" device="" value="USB MICRO"/>
 <part name="B-" library="TP4056_18650" deviceset="B-" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
@@ -45534,15 +45534,15 @@ II 400w 0.15mm &gt; 6.8mH</text>
 <attribute name="NAME" x="214.63" y="158.9786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="214.63" y="154.178" size="1.778" layer="96"/>
 </instance>
-<instance part="RED" gate="G$1" x="256.54" y="134.62" rot="MR0"/>
-<instance part="GREEN" gate="G$1" x="246.38" y="134.62" rot="MR0"/>
-<instance part="R22" gate="G$1" x="256.54" y="144.78" smashed="yes" rot="MR90">
-<attribute name="NAME" x="255.27" y="146.2786" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="255.27" y="141.478" size="1.778" layer="96" rot="MR0"/>
+<instance part="RED" gate="G$1" x="256.54" y="147.32" rot="MR0"/>
+<instance part="GREEN" gate="G$1" x="246.38" y="147.32" rot="MR0"/>
+<instance part="R22" gate="G$1" x="256.54" y="134.62" smashed="yes" rot="MR90">
+<attribute name="NAME" x="255.27" y="136.1186" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="255.27" y="131.318" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R23" gate="G$1" x="246.38" y="144.78" smashed="yes" rot="MR90">
-<attribute name="NAME" x="245.11" y="146.2786" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="245.11" y="141.478" size="1.778" layer="96" rot="MR0"/>
+<instance part="R23" gate="G$1" x="246.38" y="134.62" smashed="yes" rot="MR90">
+<attribute name="NAME" x="245.11" y="136.1186" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="245.11" y="131.318" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C12" gate="G$1" x="238.76" y="116.84"/>
 <instance part="R24" gate="G$1" x="198.12" y="119.38" smashed="yes" rot="MR90">
@@ -46207,39 +46207,21 @@ II 400w 0.15mm &gt; 6.8mH</text>
 <net name="N$80" class="0">
 <segment>
 <wire x1="231.14" y1="124.46" x2="256.54" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="124.46" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="RED" gate="G$1" pin="C"/>
 <pinref part="DA1" gate="G$1" pin="CHRG"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="124.46" x2="256.54" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$81" class="0">
 <segment>
-<pinref part="GREEN" gate="G$1" pin="C"/>
-<wire x1="246.38" y1="127" x2="246.38" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
 <pinref part="DA1" gate="G$1" pin="STDBY"/>
-</segment>
-</net>
-<net name="N$82" class="0">
-<segment>
-<pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="RED" gate="G$1" pin="A"/>
-<wire x1="256.54" y1="139.7" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$83" class="0">
-<segment>
 <pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="GREEN" gate="G$1" pin="A"/>
-<wire x1="246.38" y1="139.7" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="129.54" x2="246.38" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$84" class="0">
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="246.38" y1="149.86" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="256.54" y1="152.4" x2="256.54" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="152.4" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="152.4" x2="238.76" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="121.92" x2="238.76" y2="121.92" width="0.1524" layer="91"/>
@@ -46253,11 +46235,15 @@ II 400w 0.15mm &gt; 6.8mH</text>
 <wire x1="200.66" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 <junction x="238.76" y="137.16"/>
-<junction x="246.38" y="152.4"/>
 <junction x="203.2" y="129.54"/>
 <pinref part="DA1" gate="G$1" pin="VCC"/>
 <wire x1="205.74" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="DA1" gate="G$1" pin="CE"/>
+<pinref part="GREEN" gate="G$1" pin="A"/>
+<wire x1="246.38" y1="149.86" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="RED" gate="G$1" pin="A"/>
+<wire x1="256.54" y1="149.86" x2="256.54" y2="152.4" width="0.1524" layer="91"/>
+<junction x="246.38" y="152.4"/>
 </segment>
 </net>
 <net name="N$85" class="0">
@@ -46567,6 +46553,20 @@ II 400w 0.15mm &gt; 6.8mH</text>
 <wire x1="248.92" y1="53.34" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="55.88" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
 <junction x="248.92" y="58.42"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="RED" gate="G$1" pin="C"/>
+<wire x1="256.54" y1="139.7" x2="256.54" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="GREEN" gate="G$1" pin="C"/>
+<wire x1="246.38" y1="139.7" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
