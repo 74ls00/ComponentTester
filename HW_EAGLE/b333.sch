@@ -44507,7 +44507,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
 <part name="1R26" library="resistor" deviceset="R-EU_" device="R1206W" value="270"/>
 <part name="U$56" library="lib-user" deviceset="GND" device=""/>
-<part name="TEST1" library="transistor_tester" deviceset="TT-P" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="ISP" library="con-lstb" deviceset="MA03-2" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
@@ -44754,9 +44753,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <attribute name="VALUE" x="278.13" y="123.698" size="1.778" layer="96"/>
 </instance>
 <instance part="U$56" gate="G$1" x="228.6" y="116.84"/>
-<instance part="TEST1" gate="G$1" x="195.58" y="160.02" smashed="yes">
-<attribute name="NAME" x="198.12" y="157.48" size="1.27" layer="95" rot="R180"/>
-</instance>
 <instance part="P+13" gate="1" x="154.94" y="50.8" smashed="yes">
 <attribute name="VALUE" x="157.48" y="53.34" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -45103,10 +45099,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <junction x="177.8" y="124.46"/>
 <label x="142.24" y="124.46" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="TEST1" gate="G$1" pin="3"/>
-<wire x1="200.66" y1="160.02" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="PB5" class="0">
 <segment>
@@ -45150,10 +45142,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <wire x1="205.74" y1="147.32" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="121.92" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
 <label x="142.24" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEST1" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="160.02" x2="195.58" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -45208,10 +45196,6 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <pinref part="4Y3" gate="G$2" pin="O"/>
 <wire x1="218.44" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="142.24" y="119.38" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="TEST1" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="160.02" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AVCC" class="0">

@@ -4259,7 +4259,6 @@ grid 2.54 mm, diameter 6 mm</description>
 <element name="4R7" library="resistor" package="R0805" value="100" x="111.125" y="26.035"/>
 <element name="C17" library="resistor" package="C0805K" value="100n" x="106.3625" y="34.29"/>
 <element name="1R26" library="resistor" package="R1206W" value="270" x="141.2875" y="105.7275"/>
-<element name="TEST1" library="transistor_tester" package="TT-P" value="TT-P" x="116.205" y="69.215"/>
 <element name="ISP" library="con-lstb" package="MA03-2" value="" x="127.9525" y="75.8825" rot="R270"/>
 <element name="DA6" library="ct-pack" package="SOT89R" value="78L05" x="148.2725" y="106.9975" rot="R90"/>
 <element name="5C9" library="resistor" package="E2,5-6" value="47u" x="147.0025" y="116.84"/>
@@ -5076,11 +5075,9 @@ grid 2.54 mm, diameter 6 mm</description>
 <via x="118.745" y="76.2" extent="1-16" drill="0.6" shape="square"/>
 <via x="109.5375" y="89.8525" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="109.5375" y1="89.8525" x2="111.94781875" y2="90.1242125" width="0.3048" layer="16"/>
-<contactref element="TEST1" pad="P$5"/>
-<wire x1="118.745" y1="76.2" x2="121.285" y2="74.295" width="0.3048" layer="16"/>
 <wire x1="118.745" y1="76.2" x2="112.395" y2="82.55" width="0.3048" layer="1"/>
 <wire x1="112.395" y1="82.55" x2="109.5375" y2="89.8525" width="0.3048" layer="1"/>
-<wire x1="121.285" y1="64.77" x2="121.285" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="121.285" y1="64.77" x2="118.745" y2="76.2" width="0" layer="19" extent="16-16"/>
 <wire x1="110.275" y1="26.035" x2="121.285" y2="64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="111.2275" y1="20.32" x2="110.275" y2="26.035" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -5095,20 +5092,14 @@ grid 2.54 mm, diameter 6 mm</description>
 <contactref element="T5" pad="1"/>
 <contactref element="1R22" pad="2"/>
 <contactref element="1R21" pad="2"/>
-<contactref element="TEST1" pad="P$3"/>
-<contactref element="TEST1" pad="P$4"/>
-<contactref element="TEST1" pad="P$2"/>
 <wire x1="117.475" y1="78.425" x2="115.2525" y2="78.425" width="0.3048" layer="16"/>
 <wire x1="115.2525" y1="78.425" x2="115.2525" y2="76.835" width="0.3048" layer="16"/>
 <via x="115.2525" y="76.835" extent="1-16" drill="0.6" shape="square"/>
 <via x="107.95" y="90.4875" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="107.95" y1="90.4875" x2="111.8089" y2="90.912059375" width="0.3048" layer="16"/>
-<wire x1="115.2525" y1="76.835" x2="116.205" y2="74.295" width="0.3048" layer="16"/>
 <wire x1="115.2525" y1="76.835" x2="108.2675" y2="87.63" width="0.3048" layer="1"/>
 <wire x1="108.2675" y1="87.63" x2="107.95" y2="90.4875" width="0.3048" layer="1"/>
-<wire x1="116.205" y1="74.295" x2="118.745" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="113.665" y1="74.295" x2="116.205" y2="74.295" width="0" layer="19" extent="1-1"/>
-<wire x1="116.205" y1="64.77" x2="116.205" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="116.205" y1="64.77" x2="115.2525" y2="76.835" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="T3">
 <contactref element="DD1" pad="25"/>
@@ -5120,12 +5111,10 @@ grid 2.54 mm, diameter 6 mm</description>
 <via x="110.8075" y="76.835" extent="1-16" drill="0.6" shape="square"/>
 <via x="107.315" y="91.7575" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="107.315" y1="91.7575" x2="113.0196375" y2="92.64116875" width="0.3048" layer="16"/>
-<contactref element="TEST1" pad="P$1"/>
 <wire x1="110.8075" y1="78.425" x2="110.8075" y2="76.835" width="0.3048" layer="16"/>
-<wire x1="110.8075" y1="76.835" x2="111.125" y2="74.295" width="0.3048" layer="16"/>
 <wire x1="110.8075" y1="76.835" x2="106.9975" y2="87.63" width="0.3048" layer="1"/>
 <wire x1="106.9975" y1="87.63" x2="107.315" y2="91.7575" width="0.3048" layer="1"/>
-<wire x1="111.125" y1="64.77" x2="111.125" y2="74.295" width="0" layer="19" extent="1-1"/>
+<wire x1="111.125" y1="64.77" x2="110.8075" y2="76.835" width="0" layer="19" extent="16-16"/>
 <wire x1="140.6525" y1="31.4325" x2="111.125" y2="64.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVCC">
