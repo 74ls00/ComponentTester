@@ -44403,7 +44403,7 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <part name="5R3" library="resistor" deviceset="R-EU_" device="0204/7" value="3.9k"/>
 <part name="5R4" library="resistor" deviceset="R-EU_" device="R0805" value="18k"/>
 <part name="2D2" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="SS12"/>
-<part name="5C3" library="resistor" deviceset="CPOL-EU" device="E2-5" value="330u/6V"/>
+<part name="5C3" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="330u/6V"/>
 <part name="5C4" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U$18" library="lib-user" deviceset="GND" device=""/>
 <part name="U$26" library="lib-user" deviceset="GND" device=""/>
