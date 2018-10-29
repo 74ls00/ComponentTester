@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -44780,8 +44780,8 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <attribute name="NAME" x="139.7" y="88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.7" y="87.63" size="1.778" layer="96"/>
 </instance>
-<instance part="TEST" gate="G$1" x="195.58" y="190.5" smashed="yes">
-<attribute name="NAME" x="198.12" y="187.96" size="1.27" layer="95" rot="R180"/>
+<instance part="TEST" gate="G$1" x="165.1" y="129.54" smashed="yes">
+<attribute name="NAME" x="167.64" y="127" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="JP3" gate="A" x="256.54" y="152.4" rot="R90"/>
 <instance part="H1" gate="A" x="322.58" y="147.32" rot="R90"/>
@@ -45077,8 +45077,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <net name="T1" class="0">
 <segment>
 <pinref part="DD1" gate="1" pin="PC0(ADC0/PCINT8)"/>
-<wire x1="134.62" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="1R19" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="124.46" x2="184.15" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="91.44" x2="180.34" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="1R20" gate="G$1" pin="2"/>
@@ -45098,6 +45099,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <junction x="177.8" y="142.24"/>
 <junction x="177.8" y="124.46"/>
 <label x="142.24" y="124.46" size="1.778" layer="95"/>
+<pinref part="TEST" gate="G$1" pin="3"/>
+<wire x1="170.18" y1="129.54" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<junction x="170.18" y="124.46"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -45127,8 +45131,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <net name="T2" class="0">
 <segment>
 <pinref part="DD1" gate="1" pin="PC1(ADC1/PCINT9)"/>
-<wire x1="134.62" y1="121.92" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="T5" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="121.92" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="129.54" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="1R22" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="91.44" x2="203.2" y2="110.49" width="0.1524" layer="91"/>
@@ -45142,6 +45147,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <wire x1="205.74" y1="147.32" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="121.92" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
 <label x="142.24" y="121.92" size="1.778" layer="95"/>
+<pinref part="TEST" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="129.54" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
+<junction x="165.1" y="121.92"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -45179,8 +45187,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <net name="T3" class="0">
 <segment>
 <pinref part="DD1" gate="1" pin="PC2(ADC2/PCINT10)"/>
-<wire x1="134.62" y1="119.38" x2="212.09" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="T6" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="119.38" x2="212.09" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="212.09" y1="129.54" x2="212.09" y2="119.38" width="0.1524" layer="91"/>
 <junction x="212.09" y="119.38"/>
 <pinref part="1R24" gate="G$1" pin="2"/>
@@ -45196,6 +45205,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <pinref part="4Y3" gate="G$2" pin="O"/>
 <wire x1="218.44" y1="154.94" x2="210.82" y2="154.94" width="0.1524" layer="91"/>
 <label x="142.24" y="119.38" size="1.778" layer="95"/>
+<pinref part="TEST" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="129.54" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
+<junction x="160.02" y="119.38"/>
 </segment>
 </net>
 <net name="AVCC" class="0">
