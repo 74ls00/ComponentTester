@@ -1,8 +1,74 @@
+### root ###
 Local
 HW
 docs
 _Win_Run
 
+
+
+### hw eagle ###
+#devel
+eagle.epf
+#DESCRIPTION
+#gerber
+#b333.brd
+#b333.sch
+#transistor_tester.lbr
+#ExportGerber.cam
+#b333.lay6
+#mod.txt
+#TODO.txt
+
+rcl.lbr
+frames.lbr
+jumper.lbr
+v-reg.lbr
+Новый текстовый документ.txt
+
+_old-version1
+backup
+
+1.png
+GerberAImport4SL6(x86).exe
+GerberAImport4SL6.ini
+pack7z.bat
+pack7z.txt
+*.pdf
+*.png
+*.bak
+*.lnk
+*.log
+*.b##
+*.b#1
+*.b#2
+*.b#3
+*.b#4
+*.b#5
+*.b#6
+*.b#7
+*.b#8
+*.b#9
+*.s##
+*.s#1
+*.s#2
+*.s#3
+*.s#4
+*.s#5
+*.s#6
+*.s#7
+*.s#8
+*.s#9
+*.l#1
+*.l#2
+*.l#3
+*.l#4
+*.l#5
+*.l#6
+*.l#7
+*.l#8
+*.l#9
+*.pro
+*.job
 
 
 
