@@ -44412,9 +44412,9 @@ Dave.Calaway &lt;a href="https://goo.gl/Muy1Tr"&gt;Eagle Library&lt;/a&gt;</desc
 <pad name="P2+OUT" x="7.25" y="-18.12" drill="1" diameter="2.54" shape="square"/>
 <pad name="P2+B" x="3.75" y="-18.12" drill="1" diameter="2.54" shape="square"/>
 <text x="-7.5" y="1.88" size="2.1844" layer="21">-</text>
-<text x="-6.25" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT-</text>
+<text x="-6.5" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT-</text>
 <text x="-3.25" y="-16.12" size="1.27" layer="21" rot="R90.1">B-</text>
-<text x="7.25" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT+</text>
+<text x="7.75" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT+</text>
 <text x="4.25" y="-16.37" size="1.27" layer="21" rot="R90.1">B+</text>
 <text x="6" y="0.88" size="2.1844" layer="21">+</text>
 <text x="-5" y="-10.62" size="1.27" layer="21" rot="R90.1">03962A</text>
@@ -46720,6 +46720,19 @@ II 400w 0.15mm &gt; 6.8mH</text>
 <junction x="40.64" y="106.68"/>
 <wire x1="40.64" y1="106.68" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
 <junction x="40.64" y="111.76"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="P2-B"/>
+<wire x1="35.56" y1="99.06" x2="38.1" y2="99.06" width="0.1524" layer="91"/>
+<junction x="38.1" y="99.06"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<wire x1="40.64" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<junction x="40.64" y="99.06"/>
 </segment>
 </net>
 </nets>

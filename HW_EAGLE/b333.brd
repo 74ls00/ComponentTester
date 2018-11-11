@@ -4016,9 +4016,9 @@ grid 2.54 mm, diameter 6 mm</description>
 <pad name="P2+OUT" x="7.25" y="-18.12" drill="1" diameter="2.54" shape="square"/>
 <pad name="P2+B" x="3.75" y="-18.12" drill="1" diameter="2.54" shape="square"/>
 <text x="-7.5" y="1.88" size="2.1844" layer="21">-</text>
-<text x="-6.25" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT-</text>
+<text x="-6.5" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT-</text>
 <text x="-3.25" y="-16.12" size="1.27" layer="21" rot="R90.1">B-</text>
-<text x="7.25" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT+</text>
+<text x="7.75" y="-16.37" size="1.27" layer="21" rot="R90.1">OUT+</text>
 <text x="4.25" y="-16.37" size="1.27" layer="21" rot="R90.1">B+</text>
 <text x="6" y="0.88" size="2.1844" layer="21">+</text>
 <text x="-5" y="-10.62" size="1.27" layer="21" rot="R90.1">03962A</text>
@@ -4453,7 +4453,7 @@ grid 2.54 mm, diameter 6 mm</description>
 <element name="6VD5" library="diode" package="SOD80C" value="5v6" x="156.21" y="69.85" rot="MR270"/>
 <element name="H1" library="pinhead" package="1X16" value="LCD" x="123.5075" y="153.3525"/>
 <element name="B+" library="TP4056_18650" package="PAD-" value="B-" x="77.1525" y="89.8525" rot="MR90"/>
-<element name="U$5" library="TP4056+mod" package="MOD_03962A" value="MOD_TP4056" x="281.305" y="149.5425"/>
+<element name="U$5" library="TP4056+mod" package="MOD_03962A" value="MOD_TP4056" x="280.035" y="149.5425"/>
 <element name="U$11" library="b333" package="F18650" value="" x="251.1425" y="144.4625"/>
 </elements>
 <signals>
@@ -5610,6 +5610,9 @@ grid 2.54 mm, diameter 6 mm</description>
 </signal>
 <signal name="N$25">
 <contactref element="U$5" pad="P1+"/>
+</signal>
+<signal name="N$27">
+<contactref element="U$5" pad="P2-B"/>
 </signal>
 </signals>
 </board>
