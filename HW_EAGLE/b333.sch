@@ -45268,11 +45268,6 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="248.92" y1="106.68" x2="248.92" y2="127" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="BS1" gate="G$1" pin="1"/>
-<wire x1="267.97" y1="64.77" x2="255.27" y2="64.77" width="0.1524" layer="91"/>
-<label x="255.27" y="64.77" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="PD5" class="0">
 <segment>
@@ -45635,6 +45630,11 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <pinref part="J_PD4" gate="1" pin="1"/>
 <pinref part="DD1" gate="1" pin="PD4(T0/XCK/PCINT20)"/>
 <wire x1="137.16" y1="91.44" x2="134.62" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BS1" gate="G$1" pin="1"/>
+<wire x1="267.97" y1="64.77" x2="255.27" y2="64.77" width="0.1524" layer="91"/>
+<label x="255.27" y="64.77" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
