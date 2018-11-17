@@ -44723,9 +44723,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <part name="1R22" library="resistor" deviceset="R-EU_" device="M0805" value="470K"/>
 <part name="1R23" library="resistor" deviceset="R-EU_" device="M0805" value="680"/>
 <part name="1R24" library="resistor" deviceset="R-EU_" device="M0805" value="470K"/>
-<part name="T4" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="T5" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="T6" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="T3" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="T2" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="T1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="DIS1" library="b333" deviceset="LCD_16X2_R2" device=""/>
 <part name="D8" library="v-reg" deviceset="TL431CLP" device="" value="TL431"/>
 <part name="U$53" library="lib-user" deviceset="GND" device=""/>
@@ -44958,15 +44958,15 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="NAME" x="214.4014" y="82.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="219.202" y="82.55" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="T4" gate="G$1" x="184.15" y="132.08" smashed="yes" rot="R90">
+<instance part="T3" gate="G$1" x="184.15" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="184.15" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.23" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="T5" gate="G$1" x="199.39" y="132.08" smashed="yes" rot="R90">
+<instance part="T2" gate="G$1" x="199.39" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.39" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="204.47" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="T6" gate="G$1" x="212.09" y="132.08" smashed="yes" rot="R90">
+<instance part="T1" gate="G$1" x="212.09" y="132.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="212.09" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -45351,7 +45351,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <label x="275.59" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="T1" class="0">
+<net name="T3" class="0">
 <segment>
 <pinref part="DD1" gate="1" pin="PC0(ADC0/PCINT8)"/>
 <wire x1="134.62" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
@@ -45366,7 +45366,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="184.15" y1="124.46" x2="184.15" y2="114.3" width="0.1524" layer="91"/>
 <junction x="184.15" y="124.46"/>
 <junction x="184.15" y="114.3"/>
-<pinref part="T4" gate="G$1" pin="1"/>
+<pinref part="T3" gate="G$1" pin="1"/>
 <wire x1="184.15" y1="129.54" x2="184.15" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="124.46" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="4R6" gate="G$1" pin="1"/>
@@ -45422,7 +45422,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <segment>
 <pinref part="DD1" gate="1" pin="PC1(ADC1/PCINT9)"/>
 <wire x1="134.62" y1="121.92" x2="165.1" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="T5" gate="G$1" pin="1"/>
+<pinref part="T2" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="121.92" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="129.54" x2="199.39" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="1R22" gate="G$1" pin="2"/>
@@ -45486,11 +45486,11 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="316.23" y1="55.88" x2="308.61" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="T3" class="0">
+<net name="T1" class="0">
 <segment>
 <pinref part="DD1" gate="1" pin="PC2(ADC2/PCINT10)"/>
 <wire x1="134.62" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="T6" gate="G$1" pin="1"/>
+<pinref part="T1" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="119.38" x2="212.09" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="212.09" y1="129.54" x2="212.09" y2="119.38" width="0.1524" layer="91"/>
 <junction x="212.09" y="119.38"/>
