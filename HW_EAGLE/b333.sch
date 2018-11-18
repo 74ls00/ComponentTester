@@ -44723,7 +44723,6 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <part name="T3" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="T2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="T1" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="DIS1" library="b333" deviceset="LCD_16X2_R2" device=""/>
 <part name="D8" library="v-reg" deviceset="TL431CLP" device="" value="TL431"/>
 <part name="U$53" library="lib-user" deviceset="GND" device=""/>
 <part name="1R25" library="resistor" deviceset="R-EU_" device="R0805" value="2K2"/>
@@ -44872,6 +44871,12 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="JGND1" library="rcl" deviceset="R-EU_" device="R1206W"/>
 <part name="U$9" library="lib-user" deviceset="GND" device=""/>
+<part name="DIS1" library="b333" deviceset="LCD_16X2_R2" device="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="OC_NEWARK" value="unknown"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -44963,7 +44968,6 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="NAME" x="212.09" y="133.985" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.17" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="DIS1" gate="G$1" x="256.54" y="165.1"/>
 <instance part="D8" gate="G$1" x="124.46" y="142.24" smashed="yes" rot="MR90">
 <attribute name="NAME" x="120.65" y="135.89" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="120.015" y="140.97" size="1.778" layer="96" rot="MR270"/>
@@ -45062,6 +45066,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="VALUE" x="34.798" y="92.71" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="U$9" gate="G$1" x="38.1" y="88.9"/>
+<instance part="DIS1" gate="G$1" x="256.54" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -45684,7 +45689,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <label x="68.58" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GND1" class="0">
+<net name="GG" class="0">
 <segment>
 <pinref part="1C8" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="104.14" x2="45.72" y2="115.57" width="0.1524" layer="91"/>

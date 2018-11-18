@@ -4411,12 +4411,6 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <element name="T3" library="pinhead" package="1X01" value="" x="126.365" y="63.5"/>
 <element name="T2" library="pinhead" package="1X01" value="" x="121.285" y="63.5"/>
 <element name="T1" library="pinhead" package="1X01" value="" x="116.205" y="63.5"/>
-<element name="DIS1" library="b333" package="LCD_16X2_R2" value="LCD_16X2_R2" x="255.905" y="116.205">
-<attribute name="OC_NEWARK" value="unknown" x="246.0625" y="-19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="246.0625" y="-19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="246.0625" y="-19.3675" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="246.0625" y="-19.3675" size="1.778" layer="27" display="off"/>
-</element>
 <element name="D8" library="v-reg" package="TO92-CLP" value="TL431" x="113.9825" y="99.06" rot="R180"/>
 <element name="1R25" library="resistor" package="R0805" value="2K2" x="115.57" y="94.9325" rot="MR180"/>
 <element name="1L2" library="rcl" package="IRF36" value="10mkhn" x="123.5075" y="85.725" rot="R28"/>
@@ -4583,6 +4577,12 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 </element>
 <element name="1C1" library="resistor" package="C0805K" value="100n" x="112.0775" y="94.9325" rot="MR0"/>
 <element name="JGND1" library="rcl" package="R1206W" value="" x="128.905" y="90.4875" rot="MR70"/>
+<element name="DIS1" library="b333" package="LCD_16X2_R2" value="LCD_16X2_R2" x="247.65" y="107.6325">
+<attribute name="OC_NEWARK" value="unknown" x="247.65" y="107.6325" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="247.65" y="107.6325" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="247.65" y="107.6325" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="247.65" y="107.6325" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VCC">
@@ -4905,8 +4905,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <via x="120.015" y="80.9625" extent="1-16" drill="0.8" diameter="2.3"/>
 <wire x1="120.015" y1="80.9625" x2="121.07451875" y2="82.63861875" width="0.3048" layer="16"/>
 <wire x1="129.54" y1="76.835" x2="131.445" y2="78.74" width="0.3048" layer="1"/>
-<wire x1="129.54" y1="76.835" x2="123.46080625" y2="76.835" width="0.3048" layer="1"/>
-<wire x1="123.46080625" y1="76.835" x2="121.285" y2="79.01080625" width="0.3048" layer="1"/>
+<wire x1="129.54" y1="76.835" x2="122.82580625" y2="76.835" width="0.3048" layer="1"/>
+<wire x1="122.82580625" y1="76.835" x2="121.285" y2="79.01080625" width="0.3048" layer="1"/>
 <wire x1="121.285" y1="79.01080625" x2="120.015" y2="80.9625" width="0.3048" layer="1"/>
 <wire x1="120.015" y1="80.9625" x2="117.1575" y2="78.105" width="0.3048" layer="16"/>
 <wire x1="117.1575" y1="78.105" x2="117.1575" y2="76.515" width="0.3048" layer="16"/>
@@ -4920,9 +4920,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="118.5799" y1="82.0649" x2="118.11" y2="81.28" width="0.3048" layer="16"/>
 <wire x1="118.11" y1="81.28" x2="115.2525" y2="78.74" width="0.3048" layer="16"/>
 <wire x1="115.2525" y1="76.515" x2="115.2525" y2="78.74" width="0.3048" layer="16"/>
-<wire x1="131.445" y1="76.2" x2="122.8725" y2="76.2" width="0.3048" layer="1"/>
-<wire x1="122.8725" y1="76.2" x2="120.015" y2="79.0575" width="0.3048" layer="1"/>
-<wire x1="120.015" y1="79.0575" x2="115.2525" y2="78.74" width="0.3048" layer="1"/>
+<wire x1="131.445" y1="76.2" x2="122.2375" y2="76.2" width="0.3048" layer="1"/>
+<wire x1="122.2375" y1="76.2" x2="120.015" y2="79.0575" width="0.3048" layer="1"/>
+<wire x1="120.015" y1="79.0575" x2="115.57" y2="79.0575" width="0.3048" layer="1"/>
 <wire x1="115.57" y1="79.0575" x2="115.2525" y2="78.74" width="0.3048" layer="1"/>
 </signal>
 <signal name="V+">
@@ -5668,8 +5668,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="156.21" y1="109.005" x2="156.21" y2="107.315" width="0.8128" layer="16"/>
 <wire x1="156.21" y1="107.315" x2="156.616" y2="107.315" width="0.6096" layer="16"/>
 </signal>
-<signal name="GND1">
-<contactref element="DIS1" pad="1"/>
+<signal name="GG">
 <contactref element="1C8" pad="1"/>
 <contactref element="1C9" pad="1"/>
 <contactref element="JGND1" pad="2"/>
@@ -5684,7 +5683,6 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="130.798290625" y1="93.98" x2="129.83298125" y2="93.649690625" width="0.3048" layer="16"/>
 <wire x1="129.83298125" y1="93.649690625" x2="128.27" y2="92.3925" width="0.6096" layer="16"/>
 <wire x1="128.27" y1="92.3925" x2="128.3923125" y2="91.896096875" width="0.3048" layer="16"/>
-<wire x1="223.905" y1="131.705" x2="135.62" y2="92.345" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
 <contactref element="6VD1" pad="C"/>
@@ -5854,6 +5852,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="129.19095625" y1="86.39154375" x2="127.9525" y2="87.47125" width="0.3048" layer="16"/>
 <wire x1="133.985" y1="91.44" x2="133.62" y2="89.05875" width="0.6096" layer="16"/>
 <wire x1="133.62" y1="89.05875" x2="133.077478125" y2="86.39154375" width="0.6096" layer="16"/>
+</signal>
+<signal name="GND1">
+<contactref element="DIS1" pad="1"/>
 </signal>
 </signals>
 </board>
