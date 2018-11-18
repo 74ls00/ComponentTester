@@ -4311,16 +4311,16 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="NAME" x="148.9681" y="95.6974" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="152.1431" y="102.6131" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="5C2" library="resistor" package="C0805K" value="150" x="152.4" y="98.425" rot="MR90"/>
-<element name="5R2" library="resistor" package="R0805" value="180R" x="143.1925" y="102.5525" rot="MR270"/>
-<element name="5R1B" library="resistor" package="R1206" value="1R" x="139.3825" y="98.425" rot="MR90"/>
+<element name="5C2" library="resistor" package="C0805K" value="150" x="152.0825" y="98.425" rot="MR90"/>
+<element name="5R2" library="resistor" package="R0805" value="180R" x="143.1925" y="102.87" rot="MR270"/>
+<element name="5R1B" library="resistor" package="R1206" value="1R" x="139.3825" y="98.7425" rot="MR90"/>
 <element name="3C1" library="resistor" package="E2,5-6" value="50u" x="142.875" y="84.7725"/>
 <element name="5R3" library="resistor" package="0204/7" value="3.9k" x="146.685" y="93.345" smashed="yes" rot="R180">
 <attribute name="NAME" x="148.59" y="93.6371" size="0.9906" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="148.3106" y="93.8276" size="0.9906" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="5R4" library="resistor" package="R0805" value="18k" x="145.0975" y="90.4875" rot="MR180"/>
-<element name="2D2" library="diode" package="SMB" value="SS12" x="155.2575" y="99.3775" rot="MR90"/>
+<element name="2D2" library="diode" package="SMB" value="SS12" x="154.94" y="99.3775" rot="MR90"/>
 <element name="5C3" library="resistor" package="E2,5-7" value="330u/6V" x="148.59" y="87.9475" smashed="yes" rot="R180">
 <attribute name="NAME" x="150.1775" y="90.424" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="146.05" y="90.1065" size="1.27" layer="27" ratio="10" rot="R180"/>
@@ -4329,7 +4329,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <element name="5C1" library="resistor" package="C0805K" value="100n" x="146.685" y="93.345" rot="MR180"/>
 <element name="2L3" library="ct-pack" package="LV7X10MM" value="330uH" x="147.955" y="80.645" rot="R180"/>
 <element name="5C5" library="resistor" package="E2-5" value="1000u/6V" x="147.32" y="74.6125" rot="R270"/>
-<element name="5C6" library="resistor" package="C0805K" value="100n" x="145.0975" y="75.565" rot="MR270"/>
+<element name="5C6" library="resistor" package="C0805K" value="100n" x="145.0975" y="74.6125" rot="MR270"/>
 <element name="ZEN_K1" library="pinhead" package="1X02" value="" x="163.83" y="64.77" smashed="yes" rot="R180">
 <attribute name="NAME" x="168.6687" y="63.2587" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="165.1" y="67.945" size="1.27" layer="27" rot="R180"/>
@@ -4390,14 +4390,14 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <element name="1C6" library="resistor" package="C0805K" value="1n" x="112.7125" y="83.82" rot="MR0"/>
 <element name="1RC3" library="resistor" package="R1206W" value="4K3" x="110.8075" y="106.045" rot="MR0"/>
 <element name="1RC2" library="resistor" package="R0805" value="22K" x="106.68" y="106.045" rot="MR180"/>
-<element name="1C7" library="resistor" package="C0805K" value="100n" x="130.175" y="92.71" rot="MR70"/>
+<element name="1C7" library="resistor" package="C0805K" value="100n" x="130.4925" y="92.71" rot="MR70"/>
 <element name="1R18" library="resistor" package="R0805" value="27K" x="107.6325" y="45.72"/>
 <element name="1Z2" library="crystal" package="HC49U70" value="8MHz" x="130.81" y="85.56625" smashed="yes" rot="R20">
 <attribute name="OC_NEWARK" value="unknown" x="90.56531875" y="51.321546875" size="1.778" layer="27" rot="R20" display="off"/>
 <attribute name="MPN" value="" x="90.56531875" y="51.321546875" size="1.778" layer="27" rot="R20" display="off"/>
 <attribute name="MF" value="" x="90.56531875" y="51.321546875" size="1.778" layer="27" rot="R20" display="off"/>
 <attribute name="OC_FARNELL" value="1666956" x="90.56531875" y="51.321546875" size="1.778" layer="27" rot="R20" display="off"/>
-<attribute name="NAME" x="128.135190625" y="83.357946875" size="1.27" layer="25" ratio="10" rot="R110"/>
+<attribute name="NAME" x="128.135190625" y="83.040446875" size="1.27" layer="25" ratio="10" rot="R110"/>
 <attribute name="VALUE" x="127.556640625" y="79.651853125" size="1.27" layer="27" ratio="10" rot="R20"/>
 </element>
 <element name="1C8" library="resistor" package="C0805K" value="22p" x="134.62" y="89.05875" rot="MR0"/>
@@ -4426,7 +4426,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="VALUE" x="128.524" y="77.47" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="DA6" library="ct-pack" package="SOT89R" value="78L05" x="148.2725" y="107.315" rot="MR90"/>
-<element name="5C9" library="resistor" package="E2,5-6" value="47u" x="147.0025" y="116.84"/>
+<element name="5C9" library="resistor" package="E2,5-6" value="47u" x="146.3675" y="116.84"/>
 <element name="5C10" library="resistor" package="C0805K" value="100n" x="146.3675" y="113.665" rot="MR180"/>
 <element name="J_ONE5V" library="jumper" package="SJ" value="" x="133.0325" y="117.7925" rot="MR180"/>
 <element name="6C7" library="resistor" package="C025-025X050" value="100n" x="153.67" y="69.5325" smashed="yes" rot="R270">
@@ -4435,7 +4435,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 </element>
 <element name="6R12" library="resistor" package="R0805" value="20.0k" x="158.4325" y="68.8975" rot="MR90"/>
 <element name="6R11" library="resistor" package="R0805" value="330.0k" x="160.3375" y="68.58" rot="MR270"/>
-<element name="6VT3" library="transistor-pnp" package="TO92-BCE" value="МП15" x="153.035" y="107.315" rot="R90"/>
+<element name="6VT3" library="transistor-pnp" package="TO92-BCE" value="МП15" x="153.3525" y="107.315" rot="R90"/>
 <element name="DA7" library="mc34063-2" package="SOIC8" value="MC34063AD" x="166.6875" y="99.06" rot="MR90"/>
 <element name="6C2" library="resistor" package="C0805K" value="1n" x="160.3375" y="102.87" rot="MR0"/>
 <element name="6R4" library="resistor" package="R0805" value="120k" x="172.72" y="99.3775" rot="MR180"/>
@@ -4444,7 +4444,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <element name="6VT2" library="DSS" package="DPACK_1" value="NMOSD" x="164.465" y="107.95" rot="MR90"/>
 <element name="6R15" library="resistor" package="R1206W" value="100k" x="158.115" y="107.315" rot="MR180"/>
 <element name="6R1B" library="resistor" package="R1206" value="1R" x="165.4175" y="93.98" rot="MR180"/>
-<element name="6R13" library="resistor" package="R0805" value="10k" x="144.145" y="109.22"/>
+<element name="6R13" library="resistor" package="R1206W" value="10k" x="148.2725" y="110.49" rot="MR180"/>
 <element name="6R1A" library="resistor" package="R1206" value="1R" x="165.4175" y="89.535" rot="MR180"/>
 <element name="6C3" library="ct-pack" package="TT5D9L" value="22u/100V" x="155.575" y="85.09" smashed="yes">
 <attribute name="NAME" x="153.8605" y="89.7255" size="1.27" layer="25" ratio="10"/>
@@ -4504,14 +4504,14 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="NAME" x="171.5262" y="94.6912" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="176.2125" y="93.0275" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="6R14" library="resistor" package="R0805" value="10k" x="156.21" y="109.855" rot="MR270"/>
+<element name="6R14" library="resistor" package="R0805" value="10k" x="156.5275" y="109.855" rot="MR270"/>
 <element name="U$8" library="b333" package="F18650" value="" x="129.2225" y="121.6025"/>
 <element name="TEST" library="transistor_tester" package="TT-P" value="TT-P" x="121.285" y="66.04" smashed="yes">
 <attribute name="NAME" x="118.745" y="63.8175" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="6R3" library="resistor" package="R0805" value="20K" x="172.72" y="97.155" rot="MR0"/>
-<element name="6R10" library="resistor" package="R0805" value="10.0k" x="160.02" y="65.0875" rot="MR270"/>
-<element name="5R1" library="resistor" package="R1206" value="1R" x="141.605" y="98.425" rot="MR90"/>
+<element name="6R10" library="resistor" package="R0805" value="10.0k" x="160.02" y="65.405" rot="MR270"/>
+<element name="5R1" library="resistor" package="R1206" value="1R" x="141.605" y="98.7425" rot="MR90"/>
 <element name="JP3" library="b333" package="1X16-8" value="" x="122.2375" y="109.22"/>
 <element name="1R4" library="resistor" package="R0805" value="10k" x="52.705" y="85.09" rot="MR90"/>
 <element name="R2" library="ct-pack" package="RTRIM3296W" value="10k" x="45.085" y="86.995"/>
@@ -4551,11 +4551,11 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <attribute name="VALUE" x="130.81" y="82.55" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="XA0" library="pinhead" package="1X01" value="" x="133.985" y="96.52" smashed="yes">
-<attribute name="NAME" x="136.2837" y="97.7138" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="134.6962" y="98.0313" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="132.715" y="93.345" size="1.27" layer="27"/>
 </element>
 <element name="BS1" library="pinhead" package="1X01" value="" x="131.445" y="96.52" smashed="yes">
-<attribute name="NAME" x="131.8387" y="98.0313" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="132.1562" y="98.0313" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="130.175" y="93.345" size="1.27" layer="27"/>
 </element>
 <element name="WR" library="pinhead" package="1X01" value="" x="128.905" y="96.52" smashed="yes">
@@ -4623,11 +4623,11 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="1C7" pad="1"/>
 <wire x1="126.68165" y1="87.970521875" x2="127.9525" y2="88.265" width="0.3048" layer="16"/>
 <wire x1="126.13441875" y1="89.47403125" x2="129.8575" y2="90.805" width="0.3048" layer="16"/>
-<wire x1="129.8575" y1="90.805" x2="130.517021875" y2="91.77030625" width="0.3048" layer="16"/>
+<wire x1="129.8575" y1="90.805" x2="130.834521875" y2="91.77030625" width="0.3048" layer="16"/>
 <wire x1="131.1275" y1="87.9475" x2="129.2225" y2="87.3125" width="0.3048" layer="16"/>
 <wire x1="129.2225" y1="87.3125" x2="127.9525" y2="88.265" width="0.3048" layer="16"/>
 <wire x1="136.525" y1="80.01" x2="136.525" y2="88.265" width="0.3048" layer="1"/>
-<wire x1="131.356903125" y1="89.8986" x2="130.517021875" y2="91.77030625" width="0.6096" layer="16"/>
+<wire x1="131.356903125" y1="89.8986" x2="130.834521875" y2="91.77030625" width="0.6096" layer="16"/>
 <wire x1="131.1275" y1="87.9475" x2="131.356903125" y2="89.8986" width="0.3048" layer="16"/>
 <wire x1="136.525" y1="79.9075" x2="135.1525" y2="79.9075" width="0.3048" layer="16"/>
 <wire x1="135.1525" y1="79.9075" x2="133.985" y2="78.74" width="0.3048" layer="16"/>
@@ -4731,15 +4731,15 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="51.435" y1="81.915" x2="51.435" y2="75.565" width="0.3048" layer="16"/>
 <wire x1="51.435" y1="75.565" x2="48.895" y2="75.5675" width="0.3048" layer="16"/>
 <wire x1="146.8725" y1="107.315" x2="149.1725" y2="107.315" width="0.3048" layer="16"/>
-<wire x1="159.3375" y1="102.87" x2="158.115" y2="101.965" width="1.016" layer="16"/>
-<wire x1="158.115" y1="101.965" x2="158.115" y2="94.2975" width="1.016" layer="16"/>
+<wire x1="159.3375" y1="102.87" x2="157.7975" y2="101.965" width="1.016" layer="16"/>
+<wire x1="157.7975" y1="101.965" x2="157.7975" y2="94.615" width="1.016" layer="16"/>
 <wire x1="149.285" y1="99.06" x2="147.32" y2="99.06" width="0.6096" layer="16"/>
 <wire x1="147.32" y1="99.06" x2="147.32" y2="96.52" width="0.6096" layer="16"/>
 <wire x1="147.32" y1="96.52" x2="147.955" y2="96.52" width="0.6096" layer="16"/>
 <wire x1="147.955" y1="96.52" x2="149.285" y2="96.52" width="0.6096" layer="16"/>
-<wire x1="149.285" y1="99.06" x2="151.13" y2="99.06" width="0.6096" layer="16"/>
-<wire x1="151.13" y1="99.06" x2="151.495" y2="99.425" width="0.6096" layer="16"/>
-<wire x1="152.4" y1="99.425" x2="151.495" y2="99.425" width="0.6096" layer="16"/>
+<wire x1="149.285" y1="99.06" x2="150.8125" y2="99.06" width="0.6096" layer="16"/>
+<wire x1="150.8125" y1="99.06" x2="151.495" y2="99.425" width="0.6096" layer="16"/>
+<wire x1="152.0825" y1="99.425" x2="151.495" y2="99.425" width="0.6096" layer="16"/>
 <wire x1="153.3525" y1="79.6925" x2="155.575" y2="79.6925" width="1.27" layer="16"/>
 <contactref element="6VD5" pad="A"/>
 <wire x1="155.575" y1="79.6925" x2="157.48" y2="79.6925" width="1.27" layer="16"/>
@@ -4748,19 +4748,18 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="149.8125" y1="96.52" x2="149.285" y2="96.52" width="0.6096" layer="16"/>
 <wire x1="155.995" y1="74.6125" x2="150.8125" y2="74.6125" width="0.6096" layer="16"/>
 <wire x1="158.4325" y1="68.0475" x2="156.21" y2="68.15" width="0.6096" layer="16"/>
-<wire x1="156.21" y1="68.15" x2="156.21" y2="64.77" width="0.6096" layer="16"/>
+<wire x1="156.21" y1="68.15" x2="156.21" y2="64.77" width="1.27" layer="16"/>
 <wire x1="150.8125" y1="74.6125" x2="150.8125" y2="66.04" width="1.27" layer="16"/>
 <wire x1="150.8125" y1="66.04" x2="152.0825" y2="64.77" width="1.27" layer="16"/>
 <wire x1="152.0825" y1="64.77" x2="153.67" y2="64.77" width="1.27" layer="16"/>
 <contactref element="ZEN_A1" pad="2"/>
 <wire x1="153.67" y1="64.77" x2="156.21" y2="64.77" width="1.27" layer="16"/>
-<wire x1="153.67" y1="68.2625" x2="153.67" y2="64.77" width="0.6096" layer="16"/>
+<wire x1="153.67" y1="68.2625" x2="153.67" y2="64.77" width="1.27" layer="16"/>
 <wire x1="147.9075" y1="90.17" x2="147.32" y2="87.9475" width="0.6096" layer="16"/>
 <wire x1="147.685" y1="93.345" x2="147.955" y2="96.52" width="0.6096" layer="16"/>
 <wire x1="144.145" y1="84.7725" x2="147.32" y2="87.9475" width="0.6096" layer="16"/>
 <wire x1="153.035" y1="85.09" x2="153.035" y2="89.2175" width="1.27" layer="16"/>
-<wire x1="153.035" y1="89.2175" x2="157.7975" y2="93.98" width="1.27" layer="16"/>
-<wire x1="157.7975" y1="93.98" x2="158.115" y2="94.2975" width="1.27" layer="16"/>
+<wire x1="153.035" y1="89.2175" x2="157.1625" y2="93.345" width="1.27" layer="16"/>
 <wire x1="153.035" y1="82.8675" x2="155.575" y2="81.5975" width="1.27" layer="16"/>
 <wire x1="155.575" y1="81.5975" x2="155.575" y2="79.6925" width="1.27" layer="16"/>
 <wire x1="158.115" y1="110.23" x2="158.115" y2="104.0925" width="0.6096" layer="16"/>
@@ -4798,17 +4797,15 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="80.5775" y1="105.4025" x2="80.5775" y2="106.0525" width="0.3048" layer="16"/>
 <wire x1="38.1" y1="70.485" x2="45.4025" y2="70.485" width="0.4064" layer="16"/>
 <wire x1="45.4025" y1="70.485" x2="45.4025" y2="75.2475" width="0.4064" layer="16"/>
-<via x="152.4" y="94.2975" extent="1-16" drill="0.8" diameter="2.3"/>
-<wire x1="152.4" y1="94.2975" x2="157.48" y2="94.2975" width="1.27" layer="1"/>
-<via x="157.48" y="94.2975" extent="1-16" drill="0.8" diameter="2.3"/>
-<wire x1="157.48" y1="94.2975" x2="157.7975" y2="93.98" width="0.6096" layer="16"/>
+<via x="152.4" y="94.615" extent="1-16" drill="0.8" diameter="2.3"/>
+<wire x1="152.4" y1="94.615" x2="157.7975" y2="94.615" width="1.27" layer="1"/>
+<via x="157.7975" y="94.615" extent="1-16" drill="0.8" diameter="2.3"/>
+<wire x1="157.7975" y1="94.615" x2="157.1625" y2="93.345" width="1.27" layer="16"/>
 <wire x1="111.7125" y1="83.82" x2="110.8075" y2="83.82" width="0.4064" layer="16"/>
 <wire x1="110.8075" y1="83.82" x2="110.49" y2="84.1375" width="0.4064" layer="16"/>
 <wire x1="110.49" y1="84.1375" x2="110.49" y2="93.345" width="0.4064" layer="16"/>
 <wire x1="141.2875" y1="113.665" x2="141.2875" y2="109.22" width="0.6096" layer="16"/>
-<wire x1="155.8925" y1="111.76" x2="150.495" y2="111.76" width="0.6096" layer="16"/>
-<wire x1="150.495" y1="111.76" x2="149.1725" y2="110.4375" width="0.6096" layer="16"/>
-<wire x1="149.1725" y1="110.4375" x2="149.1725" y2="107.315" width="0.6096" layer="16"/>
+<wire x1="156.21" y1="111.76" x2="148.2725" y2="111.76" width="0.6096" layer="16"/>
 <wire x1="146.8725" y1="107.315" x2="143.1925" y2="107.315" width="0.6096" layer="16"/>
 <wire x1="143.1925" y1="107.315" x2="141.2875" y2="109.22" width="0.6096" layer="16"/>
 <wire x1="70.1675" y1="97.6825" x2="70.1675" y2="96.52" width="0.6096" layer="16"/>
@@ -4827,15 +4824,15 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="72.7075" y1="98.74" x2="73.345" y2="99.695" width="0.6096" layer="16"/>
 <wire x1="70.1675" y1="98.1075" x2="68.58" y2="99.695" width="0.6096" layer="16"/>
 <wire x1="68.58" y1="99.695" x2="68.58" y2="101.1555" width="0.6096" layer="16"/>
-<wire x1="155.8925" y1="111.76" x2="156.21" y2="111.4425" width="0.6096" layer="16"/>
-<wire x1="156.21" y1="111.4425" x2="156.21" y2="110.705" width="0.6096" layer="16"/>
+<wire x1="156.21" y1="111.76" x2="156.5275" y2="111.4425" width="0.6096" layer="16"/>
+<wire x1="156.5275" y1="111.4425" x2="156.5275" y2="110.705" width="0.6096" layer="16"/>
 <wire x1="158.115" y1="110.23" x2="159.665" y2="110.23" width="0.8128" layer="16"/>
-<wire x1="158.115" y1="110.23" x2="157.48" y2="110.705" width="0.8128" layer="16"/>
-<wire x1="157.48" y1="110.705" x2="156.21" y2="110.705" width="0.8128" layer="16"/>
+<wire x1="158.115" y1="110.23" x2="157.7975" y2="110.705" width="0.8128" layer="16"/>
+<wire x1="157.7975" y1="110.705" x2="156.5275" y2="110.705" width="0.8128" layer="16"/>
 <wire x1="147.685" y1="93.345" x2="150.495" y2="93.345" width="0.6096" layer="16"/>
 <wire x1="147.9075" y1="90.17" x2="150.495" y2="93.345" width="0.6096" layer="16"/>
 <wire x1="149.8125" y1="96.52" x2="150.495" y2="93.345" width="0.6096" layer="16"/>
-<wire x1="152.4" y1="94.2975" x2="150.495" y2="93.345" width="0.6096" layer="16"/>
+<wire x1="152.4" y1="94.615" x2="150.495" y2="93.345" width="1.27" layer="16"/>
 <wire x1="122.136721875" y1="87.9977875" x2="124.1927875" y2="87.9977875" width="0.3048" layer="16"/>
 <wire x1="124.1927875" y1="87.9977875" x2="124.93278125" y2="88.21695625" width="0.3048" layer="16"/>
 <contactref element="1C1" pad="2"/>
@@ -4845,13 +4842,13 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="111.0775" y1="96.155" x2="111.0775" y2="94.9325" width="0.3048" layer="16"/>
 <wire x1="113.9825" y1="97.155" x2="115.6585" y2="97.155" width="0.4064" layer="16"/>
 <wire x1="115.6585" y1="97.155" x2="115.976" y2="96.8375" width="0.3048" layer="16"/>
-<wire x1="115.2525" y1="85.4075" x2="112.395" y2="85.4075" width="0.3048" layer="16"/>
+<wire x1="115.2525" y1="85.4075" x2="112.0775" y2="85.4075" width="0.3048" layer="16"/>
 <wire x1="124.93278125" y1="88.21695625" x2="126.408034375" y2="88.722278125" width="0.3048" layer="16"/>
 <contactref element="JGND1" pad="1"/>
 <wire x1="126.408034375" y1="88.722278125" x2="127.9525" y2="89.2175" width="0.3048" layer="16"/>
 <wire x1="127.9525" y1="89.2175" x2="129.417690625" y2="89.0789" width="0.3048" layer="16"/>
-<wire x1="112.395" y1="85.4075" x2="111.7125" y2="84.725" width="0.3048" layer="16"/>
-<wire x1="111.7125" y1="84.725" x2="111.7125" y2="83.82" width="0.3048" layer="16"/>
+<wire x1="112.0775" y1="85.4075" x2="111.7125" y2="85.0425" width="0.3048" layer="16"/>
+<wire x1="111.7125" y1="85.0425" x2="111.7125" y2="83.82" width="0.3048" layer="16"/>
 <wire x1="104.14" y1="104.775" x2="105.0925" y2="104.14" width="0.6096" layer="16"/>
 <wire x1="105.0925" y1="104.14" x2="107.95" y2="104.14" width="0.6096" layer="16"/>
 <wire x1="109.5375" y1="101.9175" x2="111.76" y2="101.9175" width="0.6096" layer="16"/>
@@ -4867,15 +4864,18 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="118.11" y1="113.665" x2="118.11" y2="104.775" width="0.6096" layer="16"/>
 <wire x1="118.11" y1="104.775" x2="116.84" y2="103.505" width="0.6096" layer="16"/>
 <wire x1="116.84" y1="103.505" x2="113.03" y2="103.505" width="0.6096" layer="16"/>
+<wire x1="148.2725" y1="111.76" x2="148.2725" y2="109.5375" width="0.3048" layer="16"/>
+<wire x1="148.2725" y1="109.5375" x2="148.2725" y2="108.215" width="0.6096" layer="16"/>
+<wire x1="148.2725" y1="108.215" x2="149.1725" y2="107.315" width="0.6096" layer="16"/>
 <wire x1="120.38" y1="120.3325" x2="121.285" y2="120.3325" width="0" layer="19" extent="16-16"/>
 <wire x1="120.9675" y1="121.79" x2="121.285" y2="120.3325" width="0" layer="19" extent="16-16"/>
 <wire x1="118.11" y1="113.665" x2="120.38" y2="120.3325" width="0" layer="19" extent="16-16"/>
+<wire x1="147.3675" y1="113.665" x2="148.2725" y2="111.76" width="0" layer="19" extent="16-16"/>
+<wire x1="147.6375" y1="116.84" x2="147.3675" y2="113.665" width="0" layer="19" extent="16-16"/>
 <wire x1="147.32" y1="73.5965" x2="150.8125" y2="74.6125" width="0" layer="19" extent="16-16"/>
-<wire x1="145.0975" y1="74.565" x2="147.32" y2="73.5965" width="0" layer="19" extent="16-16"/>
-<wire x1="147.3675" y1="113.665" x2="150.495" y2="111.76" width="0" layer="19" extent="16-16"/>
-<wire x1="148.2725" y1="116.84" x2="147.3675" y2="113.665" width="0" layer="19" extent="16-16"/>
+<wire x1="145.0975" y1="73.6125" x2="147.32" y2="73.5965" width="0" layer="19" extent="16-16"/>
 <wire x1="112.0775" y1="97.155" x2="111.76" y2="101.9175" width="0" layer="19" extent="16-16"/>
-<wire x1="133.985" y1="73.66" x2="145.0975" y2="74.565" width="0" layer="19" extent="16-16"/>
+<wire x1="133.985" y1="73.66" x2="145.0975" y2="73.6125" width="0" layer="19" extent="16-16"/>
 <wire x1="80.5775" y1="106.0525" x2="103.1875" y2="109.22" width="0" layer="19" extent="16-16"/>
 <wire x1="52.705" y1="84.24" x2="70.1675" y2="96.52" width="0" layer="19" extent="16-16"/>
 <wire x1="35.56" y1="70.485" x2="35.56" y2="72.0725" width="0" layer="19" extent="16-16"/>
@@ -4888,8 +4888,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="ZEN_K1" pad="1"/>
 <contactref element="6R10" pad="2"/>
 <contactref element="ZEN_K1" pad="2"/>
-<wire x1="160.02" y1="64.2375" x2="162.56" y2="64.77" width="0.6096" layer="16"/>
-<wire x1="162.56" y1="64.77" x2="165.1" y2="64.77" width="0.6096" layer="16"/>
+<wire x1="160.02" y1="64.555" x2="162.56" y2="64.77" width="0.8128" layer="16"/>
+<wire x1="162.56" y1="64.77" x2="165.1" y2="64.77" width="1.27" layer="16"/>
 <wire x1="162.56" y1="64.77" x2="162.56" y2="72.39" width="0.6096" layer="16"/>
 <wire x1="162.56" y1="72.39" x2="162.2425" y2="72.7075" width="0.6096" layer="16"/>
 </signal>
@@ -4966,7 +4966,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="163.9955" y1="91.7575" x2="163.9955" y2="89.535" width="0.8128" layer="16"/>
 <wire x1="144.085" y1="97.79" x2="146.0025" y2="97.79" width="0.4064" layer="16"/>
 <wire x1="141.2875" y1="91.44" x2="141.605" y2="84.7725" width="0.6096" layer="16"/>
-<wire x1="139.3825" y1="97.003" x2="141.605" y2="97.003" width="0.6096" layer="16"/>
+<wire x1="139.3825" y1="97.3205" x2="141.605" y2="97.3205" width="0.6096" layer="16"/>
 <contactref element="R21" pad="2"/>
 <contactref element="C13" pad="1"/>
 <contactref element="DA1" pad="5"/>
@@ -4983,20 +4983,25 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="146.0025" y1="96.155" x2="145.685" y2="94.5675" width="0.4064" layer="16"/>
 <wire x1="145.685" y1="94.5675" x2="145.685" y2="93.345" width="0.4064" layer="16"/>
 <wire x1="141.2875" y1="91.44" x2="140.97" y2="92.71" width="0.4064" layer="16"/>
-<wire x1="140.97" y1="92.71" x2="140.97" y2="94.615" width="0.4064" layer="16"/>
-<wire x1="144.085" y1="97.79" x2="142.392" y2="97.79" width="0.6096" layer="16"/>
-<wire x1="142.392" y1="97.79" x2="141.605" y2="97.003" width="0.6096" layer="16"/>
-<wire x1="140.97" y1="94.615" x2="141.605" y2="95.25" width="0.4064" layer="16"/>
-<wire x1="141.605" y1="95.25" x2="141.605" y2="97.003" width="0.4064" layer="16"/>
-<wire x1="139.3825" y1="97.003" x2="119.0625" y2="100.2275" width="0" layer="19" extent="16-16"/>
-<wire x1="77.1525" y1="96.2025" x2="119.0625" y2="100.2275" width="0" layer="19" extent="16-16"/>
+<wire x1="140.97" y1="92.71" x2="140.97" y2="93.98" width="0.4064" layer="16"/>
+<wire x1="144.085" y1="97.79" x2="143.027" y2="97.79" width="0.6096" layer="16"/>
+<wire x1="143.027" y1="97.79" x2="141.605" y2="97.3205" width="0.6096" layer="16"/>
+<wire x1="140.97" y1="93.98" x2="141.605" y2="94.615" width="0.4064" layer="16"/>
+<wire x1="141.605" y1="94.615" x2="141.605" y2="97.3205" width="0.4064" layer="16"/>
+<wire x1="139.3825" y1="97.3205" x2="139.7" y2="94.615" width="0.6096" layer="16"/>
+<via x="139.7" y="94.615" extent="1-16" drill="0.8" diameter="2.3"/>
+<wire x1="139.7" y1="94.615" x2="135.89" y2="100.6475" width="0.6096" layer="1"/>
+<wire x1="135.89" y1="100.6475" x2="121.285" y2="100.6475" width="0.6096" layer="1"/>
+<via x="121.285" y="100.6475" extent="1-16" drill="0.8" diameter="2.3"/>
+<wire x1="121.285" y1="100.6475" x2="119.0625" y2="100.2275" width="0.6096" layer="16"/>
+<wire x1="119.0625" y1="100.2275" x2="77.1525" y2="96.2025" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$8">
 <contactref element="DA3" pad="3"/>
 <contactref element="5C2" pad="1"/>
-<wire x1="149.285" y1="97.79" x2="151.0825" y2="97.79" width="0.6096" layer="16"/>
-<wire x1="152.4" y1="97.425" x2="151.4475" y2="97.425" width="0.6096" layer="16"/>
-<wire x1="151.4475" y1="97.425" x2="151.0825" y2="97.79" width="0.6096" layer="16"/>
+<wire x1="149.285" y1="97.79" x2="150.765" y2="97.79" width="0.6096" layer="16"/>
+<wire x1="152.0825" y1="97.425" x2="151.765" y2="97.425" width="0.6096" layer="16"/>
+<wire x1="151.765" y1="97.425" x2="150.765" y2="97.79" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="DA3" pad="1"/>
@@ -5004,8 +5009,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="2D2" pad="A"/>
 <wire x1="149.6375" y1="102.2025" x2="149.6375" y2="100.33" width="0.6096" layer="16"/>
 <wire x1="149.6375" y1="100.33" x2="149.285" y2="100.33" width="0.6096" layer="16"/>
-<wire x1="155.2575" y1="101.5775" x2="153.68" y2="102.2025" width="0.6096" layer="16"/>
-<wire x1="153.68" y1="102.2025" x2="149.6375" y2="102.2025" width="0.6096" layer="16"/>
+<wire x1="154.94" y1="101.5775" x2="154.6325" y2="102.2025" width="0.6096" layer="16"/>
+<wire x1="154.6325" y1="102.2025" x2="149.6375" y2="102.2025" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="DA3" pad="7"/>
@@ -5013,26 +5018,27 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="5R1B" pad="2"/>
 <contactref element="2L2" pad="2"/>
 <contactref element="5R1" pad="2"/>
-<wire x1="141.605" y1="99.847" x2="139.3825" y2="99.847" width="0.6096" layer="16"/>
-<wire x1="143.1925" y1="103.4025" x2="144.685" y2="103.4025" width="0.6096" layer="16"/>
-<wire x1="144.685" y1="103.4025" x2="145.6375" y2="102.2025" width="0.6096" layer="16"/>
+<wire x1="141.605" y1="100.1645" x2="139.3825" y2="100.1645" width="0.6096" layer="16"/>
+<wire x1="143.1925" y1="103.72" x2="144.3675" y2="103.72" width="0.6096" layer="16"/>
+<wire x1="144.3675" y1="103.72" x2="145.6375" y2="102.2025" width="0.6096" layer="16"/>
 <wire x1="144.085" y1="99.06" x2="145.415" y2="99.06" width="0.4064" layer="16"/>
 <wire x1="145.415" y1="99.06" x2="146.05" y2="99.695" width="0.4064" layer="16"/>
-<wire x1="146.05" y1="99.695" x2="146.05" y2="101.79" width="0.4064" layer="16"/>
-<wire x1="146.05" y1="101.79" x2="145.6375" y2="102.2025" width="0.4064" layer="16"/>
-<wire x1="143.1925" y1="103.4025" x2="141.605" y2="103.4025" width="0.6096" layer="16"/>
-<wire x1="141.605" y1="103.4025" x2="141.605" y2="99.847" width="0.6096" layer="16"/>
+<wire x1="146.05" y1="99.695" x2="146.05" y2="100.8375" width="0.4064" layer="16"/>
+<wire x1="146.05" y1="100.8375" x2="145.6375" y2="102.2025" width="0.4064" layer="16"/>
+<wire x1="141.605" y1="103.1875" x2="141.605" y2="100.1645" width="0.6096" layer="16"/>
+<wire x1="141.605" y1="103.1875" x2="142.1375" y2="103.72" width="0.6096" layer="16"/>
+<wire x1="142.1375" y1="103.72" x2="143.1925" y2="103.72" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$15">
 <contactref element="DA3" pad="8"/>
 <contactref element="5R2" pad="2"/>
-<wire x1="143.1925" y1="101.7025" x2="144.085" y2="100.33" width="0.3048" layer="16"/>
+<wire x1="143.1925" y1="102.02" x2="144.085" y2="100.33" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$16">
 <contactref element="5R4" pad="1"/>
 <contactref element="5R3" pad="2"/>
 <contactref element="DA3" pad="5"/>
-<wire x1="142.875" y1="93.345" x2="144.085" y2="96.52" width="0.4064" layer="16"/>
+<wire x1="142.875" y1="93.345" x2="144.085" y2="96.52" width="0.6096" layer="16"/>
 <wire x1="144.2475" y1="90.4875" x2="142.875" y2="93.345" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$17">
@@ -5042,9 +5048,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="5C4" pad="1"/>
 <contactref element="2L3" pad="1"/>
 <wire x1="149.9075" y1="90.17" x2="152.13" y2="91.17" width="0.6096" layer="16"/>
-<wire x1="152.13" y1="91.17" x2="154.94" y2="93.6625" width="0.6096" layer="16"/>
-<wire x1="154.94" y1="93.6625" x2="154.9175" y2="95.5675" width="0.6096" layer="16"/>
-<wire x1="154.9175" y1="95.5675" x2="155.2575" y2="97.1775" width="0.6096" layer="16"/>
+<wire x1="152.13" y1="91.17" x2="154.94" y2="93.98" width="0.6096" layer="16"/>
+<wire x1="154.94" y1="93.98" x2="154.9175" y2="95.5675" width="0.6096" layer="16"/>
+<wire x1="154.9175" y1="95.5675" x2="154.94" y2="97.1775" width="0.6096" layer="16"/>
 <wire x1="149.86" y1="87.9475" x2="149.9075" y2="90.17" width="0.6096" layer="16"/>
 <wire x1="149.86" y1="87.9475" x2="149.606" y2="85.951" width="0.6096" layer="16"/>
 <wire x1="149.606" y1="85.951" x2="149.705" y2="80.645" width="0.6096" layer="16"/>
@@ -5115,8 +5121,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <signal name="N$59">
 <contactref element="6R6" pad="2"/>
 <contactref element="5MA" pad="1"/>
-<wire x1="167.1075" y1="73.66" x2="167.1075" y2="71.0175" width="0.6096" layer="16"/>
-<wire x1="167.1075" y1="71.0175" x2="167.9575" y2="70.1675" width="0.6096" layer="16"/>
+<wire x1="167.1075" y1="73.66" x2="167.1075" y2="72.605" width="0.6096" layer="16"/>
+<wire x1="167.1075" y1="72.605" x2="167.9575" y2="70.1675" width="0.6096" layer="16"/>
 </signal>
 <signal name="+5V1" class="3">
 </signal>
@@ -5232,8 +5238,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="J_NO_LI" pad="1"/>
 <contactref element="DA6" pad="1"/>
 <wire x1="146.205" y1="80.645" x2="146.5225" y2="108.815" width="0" layer="19" extent="16-16"/>
-<wire x1="145.0975" y1="76.565" x2="146.205" y2="80.645" width="0" layer="19" extent="16-16"/>
-<wire x1="147.32" y1="75.6285" x2="145.0975" y2="76.565" width="0" layer="19" extent="16-16"/>
+<wire x1="145.0975" y1="75.6125" x2="146.205" y2="80.645" width="0" layer="19" extent="16-16"/>
+<wire x1="147.32" y1="75.6285" x2="145.0975" y2="75.6125" width="0" layer="19" extent="16-16"/>
 <wire x1="119.4675" y1="121.44" x2="146.5225" y2="108.815" width="0" layer="19" extent="16-16"/>
 <wire x1="114.808" y1="120.3325" x2="114.9875" y2="123.19" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -5400,7 +5406,6 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="4Y3" pad="O"/>
 <wire x1="117.1575" y1="74.615" x2="115.2525" y2="74.615" width="0.3048" layer="16"/>
 <via x="113.665" y="91.44" extent="1-16" drill="0.8" diameter="2.3"/>
-<wire x1="113.665" y1="91.44" x2="118.13820625" y2="90.706065625" width="0.3048" layer="16"/>
 <wire x1="110.49" y1="89.2175" x2="113.665" y2="91.44" width="0.3048" layer="1"/>
 <contactref element="TEST" pad="P$1"/>
 <wire x1="113.9825" y1="74.295" x2="110.49" y2="75.565" width="0.3048" layer="1"/>
@@ -5408,6 +5413,9 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="115.2525" y1="74.615" x2="116.205" y2="71.12" width="0.3048" layer="16"/>
 <wire x1="113.9825" y1="74.295" x2="116.205" y2="71.12" width="0.3048" layer="1"/>
 <wire x1="116.205" y1="63.5" x2="116.205" y2="71.12" width="0.3048" layer="16"/>
+<wire x1="118.13820625" y1="90.706065625" x2="116.84" y2="91.1225" width="0.3048" layer="16"/>
+<wire x1="116.84" y1="91.1225" x2="115.2525" y2="91.1225" width="0.3048" layer="16"/>
+<wire x1="115.2525" y1="91.1225" x2="113.665" y2="91.44" width="0.3048" layer="16"/>
 <wire x1="140.6525" y1="31.4325" x2="116.205" y2="63.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AVCC">
@@ -5490,12 +5498,12 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="6VT3" pad="E"/>
 <contactref element="JP3" pad="2"/>
 <wire x1="105.83" y1="106.045" x2="105.7275" y2="109.22" width="0.6096" layer="16"/>
-<wire x1="153.035" y1="104.775" x2="147.5625" y2="104.775" width="0.6096" layer="16"/>
-<wire x1="147.5625" y1="104.775" x2="146.5225" y2="105.815" width="0.6096" layer="16"/>
+<wire x1="153.3525" y1="104.775" x2="147.88" y2="104.775" width="0.6096" layer="16"/>
+<wire x1="147.88" y1="104.775" x2="146.5225" y2="105.815" width="0.6096" layer="16"/>
 <wire x1="142.1375" y1="105.7275" x2="145.165" y2="105.7275" width="0.6096" layer="16"/>
 <wire x1="145.165" y1="105.7275" x2="146.5225" y2="105.815" width="0.6096" layer="16"/>
-<wire x1="145.7325" y1="116.84" x2="133.7945" y2="117.7925" width="0" layer="19" extent="16-16"/>
-<wire x1="145.3675" y1="113.665" x2="145.7325" y2="116.84" width="0" layer="19" extent="16-16"/>
+<wire x1="145.0975" y1="116.84" x2="133.7945" y2="117.7925" width="0" layer="19" extent="16-16"/>
+<wire x1="145.3675" y1="113.665" x2="145.0975" y2="116.84" width="0" layer="19" extent="16-16"/>
 <wire x1="146.5225" y1="105.815" x2="145.3675" y2="113.665" width="0" layer="19" extent="16-16"/>
 <wire x1="105.7275" y1="109.22" x2="133.7945" y2="117.7925" width="0" layer="19" extent="16-16"/>
 </signal>
@@ -5554,7 +5562,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <signal name="N$95">
 <contactref element="6R13" pad="2"/>
 <contactref element="6VT3" pad="B"/>
-<wire x1="144.995" y1="109.22" x2="153.035" y2="109.855" width="0" layer="19" extent="1-1"/>
+<wire x1="149.7715" y1="110.49" x2="151.13" y2="110.49" width="0.6096" layer="16"/>
+<wire x1="151.13" y1="110.49" x2="153.3525" y2="109.855" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$96">
 <contactref element="6VT2" pad="G"/>
@@ -5679,8 +5688,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="6R14" pad="2"/>
 <contactref element="6R15" pad="1"/>
 <contactref element="6VT3" pad="C"/>
-<wire x1="153.035" y1="107.315" x2="156.616" y2="107.315" width="0.8128" layer="16"/>
-<wire x1="156.21" y1="109.005" x2="156.21" y2="107.315" width="0.8128" layer="16"/>
+<wire x1="153.3525" y1="107.315" x2="156.616" y2="107.315" width="0.8128" layer="16"/>
+<wire x1="156.5275" y1="109.005" x2="156.21" y2="107.315" width="0.8128" layer="16"/>
 <wire x1="156.21" y1="107.315" x2="156.616" y2="107.315" width="0.6096" layer="16"/>
 </signal>
 <signal name="GG">
@@ -5695,8 +5704,8 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <wire x1="135.62" y1="92.345" x2="133.985" y2="93.98" width="0.3048" layer="16"/>
 <wire x1="135.62" y1="89.05875" x2="135.62" y2="92.345" width="0.3048" layer="16"/>
 <wire x1="133.985" y1="93.98" x2="130.798290625" y2="93.98" width="0.3048" layer="16"/>
-<wire x1="130.798290625" y1="93.98" x2="129.83298125" y2="93.649690625" width="0.3048" layer="16"/>
-<wire x1="129.83298125" y1="93.649690625" x2="128.27" y2="92.3925" width="0.6096" layer="16"/>
+<wire x1="130.798290625" y1="93.98" x2="130.15048125" y2="93.649690625" width="0.3048" layer="16"/>
+<wire x1="130.15048125" y1="93.649690625" x2="128.27" y2="92.3925" width="0.6096" layer="16"/>
 <wire x1="128.27" y1="92.3925" x2="128.3923125" y2="91.896096875" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$19">
@@ -5727,7 +5736,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <signal name="N$24">
 <contactref element="6R10" pad="1"/>
 <contactref element="6R11" pad="2"/>
-<wire x1="160.02" y1="65.9375" x2="160.3375" y2="67.73" width="0.6096" layer="16"/>
+<wire x1="160.02" y1="66.255" x2="160.3375" y2="67.73" width="0.6096" layer="16"/>
 </signal>
 <signal name="PC3">
 <contactref element="6R12" pad="2"/>
@@ -5737,21 +5746,23 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <contactref element="DD1" pad="26"/>
 <via x="153.035" y="72.7075" extent="1-16" drill="0.8" diameter="2.3"/>
 <wire x1="160.3375" y1="69.43" x2="158.4325" y2="69.7475" width="0.6096" layer="16"/>
-<wire x1="158.4325" y1="69.7475" x2="156.21" y2="71.55" width="0.6096" layer="16"/>
-<wire x1="156.21" y1="71.55" x2="153.67" y2="70.8025" width="0.6096" layer="16"/>
-<wire x1="153.67" y1="70.8025" x2="153.035" y2="72.7075" width="0.6096" layer="16"/>
+<wire x1="153.67" y1="70.8025" x2="153.035" y2="72.7075" width="1.27" layer="16"/>
 <wire x1="118.889959375" y1="90.97968125" x2="118.58625" y2="91.7575" width="0.3048" layer="16"/>
 <wire x1="118.58625" y1="91.7575" x2="115.8875" y2="92.71" width="0.3048" layer="16"/>
 <via x="115.8875" y="92.71" extent="1-16" drill="0.8" diameter="2.3"/>
 <wire x1="115.8875" y1="92.71" x2="122.2375" y2="98.7425" width="0.3048" layer="1"/>
 <wire x1="122.2375" y1="98.7425" x2="134.9375" y2="98.7425" width="0.3048" layer="1"/>
-<wire x1="134.9375" y1="98.7425" x2="139.3825" y2="94.2975" width="0.3048" layer="1"/>
+<wire x1="134.9375" y1="98.7425" x2="139.3825" y2="91.7575" width="0.3048" layer="1"/>
 <wire x1="142.5575" y1="89.535" x2="148.2725" y2="83.82" width="0.3048" layer="1"/>
 <wire x1="148.2725" y1="83.82" x2="148.2725" y2="77.47" width="0.3048" layer="1"/>
 <wire x1="148.2725" y1="77.47" x2="153.035" y2="72.7075" width="0.3048" layer="1"/>
 <wire x1="142.5575" y1="89.535" x2="140.6525" y2="89.535" width="0.3048" layer="1"/>
 <wire x1="140.6525" y1="89.535" x2="139.3825" y2="90.805" width="0.3048" layer="1"/>
-<wire x1="139.3825" y1="90.805" x2="139.3825" y2="94.2975" width="0.3048" layer="1"/>
+<wire x1="139.3825" y1="90.805" x2="139.3825" y2="91.7575" width="0.3048" layer="1"/>
+<wire x1="156.21" y1="71.55" x2="155.0525" y2="71.55" width="1.016" layer="16"/>
+<wire x1="155.0525" y1="71.55" x2="153.67" y2="70.8025" width="1.016" layer="16"/>
+<wire x1="158.4325" y1="69.7475" x2="157.48" y2="71.4375" width="0.6096" layer="16"/>
+<wire x1="157.48" y1="71.4375" x2="156.21" y2="71.55" width="0.6096" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="4Y4" pad="S"/>

@@ -44770,7 +44770,7 @@ Distributor: &lt;a href ="https://www.buerklin.com/default.asp?event=ShowArtikel
 <part name="6R15" library="resistor" deviceset="R-EU_" device="R1206W" value="100k"/>
 <part name="6R1B" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
 <part name="SUPPLY1" library="supply2" deviceset="V+" device=""/>
-<part name="6R13" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
+<part name="6R13" library="resistor" deviceset="R-EU_" device="R1206W" value="10k"/>
 <part name="SUPPLY10" library="supply2" deviceset="+5V/2" device=""/>
 <part name="U$65" library="lib-user" deviceset="GND" device=""/>
 <part name="6R1A" library="resistor" deviceset="R-EU_" device="R1206" value="1R"/>
